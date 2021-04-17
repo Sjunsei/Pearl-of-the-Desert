@@ -2,6 +2,11 @@
     margin: 0px;
 }
 
-ul{
+/* ul{
     background-color: lightpink;
+} */
+
+a, li{
+    text-decoration: none;
+    list-style: none;
 }
