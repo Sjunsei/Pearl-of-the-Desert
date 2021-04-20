@@ -1,16 +1,3 @@
-*{ 
-    margin: 0px;
-}
-
-/* ul{
-    background-color: lightpink;
-} */
-
-a, li{
-    text-decoration: none;
-    list-style: none;
-}
-
 /* 
 Primary Colors:
 - #fff
@@ -24,7 +11,27 @@ Brand Color:
 - #FFB370
 */
 
+*{
+    font-family: "Helvetica", sans-serif;
+    color: #fff;
+}
+
 .main-bg{
     filter: blur(5px);
     width: 100%;
+}
+
+footer{
+    background-color: #2A2B31;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+li, a{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
 }
