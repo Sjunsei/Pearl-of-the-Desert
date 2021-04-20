@@ -13,7 +13,7 @@ Brand Color:
 
 *{
     font-family: "Helvetica", sans-serif;
-    color: #fff;
+    margin: 0;
 }
 
 .main-bg{
@@ -22,16 +22,31 @@ Brand Color:
 }
 
 footer{
-    background-color: #2A2B31;
+    background-color: #515257;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 30px 10px;
 }
 
-li, a{
+ul{
+    color: #fff;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 15px;
     text-decoration: none;
     list-style: none;
+}
+
+.nav-link li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-link li a{
+    transition: all 0.3s ease 0s;
+}
+
+.copy-right{
+    color: #fff;
+    margin-right: 45px;
 }
