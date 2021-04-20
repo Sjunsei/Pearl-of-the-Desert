@@ -1,16 +1,3 @@
-*{ 
-    margin: 0px;
-}
-
-/* ul{
-    background-color: lightpink;
-} */
-
-a, li{
-    text-decoration: none;
-    list-style: none;
-}
-
 /* 
 Primary Colors:
 - #fff
@@ -24,7 +11,44 @@ Brand Color:
 - #FFB370
 */
 
+*{
+    font-family: "Helvetica", sans-serif;
+    margin: 0; 
+}
+
 .main-bg{
     filter: blur(5px);
     width: 100%;
+}
+
+footer{
+    background-color: #515257;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    border-radius: 5px;
+    position: sticky;
+}
+
+ul{
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-link li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-link li a{
+    transition: all 0.3s ease 0s;
+}
+
+.copy-right{
+    color: #fff;
+    margin-right: 45px;
 }
