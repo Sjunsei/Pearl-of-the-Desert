@@ -13,7 +13,7 @@ Brand Color:
 
 *{
     font-family: "Helvetica", sans-serif;
-    margin: 0;
+    margin: 0; 
 }
 
 .main-bg{
@@ -27,6 +27,8 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10px;
+    border-radius: 5px;
+    position: sticky;
 }
 
 ul{
