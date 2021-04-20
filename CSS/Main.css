@@ -10,3 +10,21 @@ a, li{
     text-decoration: none;
     list-style: none;
 }
+
+/* 
+Primary Colors:
+- #fff
+- #2A2B31
+- #2A2B31
+
+Secondary Color:
+- #2A2B31
+
+Brand Color:
+- #FFB370
+*/
+
+.main-bg{
+    filter: blur(5px);
+    width: 100%;
+}
