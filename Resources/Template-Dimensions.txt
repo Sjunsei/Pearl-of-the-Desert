@@ -1,0 +1,53 @@
+(Navigation Dimension)
+
+<!--use these dimensions for padding dimensions are provided by Adobe XD not sure if it's going to be applicable for CSS-->
+
+Brand Title
+90 px left
+1730 px right
+50 px top
+970 px bot
+
+
+Account Button
+1515 px left
+150 px right
+50 px top
+970 px bot
+
+
+Menu bar
+65 px left
+1805 px right
+50 px top
+970 px bot
+
+(Header Dimensions)
+90 px right
+1600 px left
+225 px top
+778 px bot
+
+
+(Footer Dimensions)
+	Contact Us
+		90 px left
+		1750 px right
+		1022 px top
+		41 px bot
+
+	About Us
+		230 px left
+		1620 px right
+
+	Promotions
+		360 px left
+		1480 px right
+
+	Gallery
+		500 px left
+		1370 px right
+
+	All Rights Reserved 2021
+		1660 left
+		90 px right
