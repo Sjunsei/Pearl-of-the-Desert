@@ -16,6 +16,11 @@ Brand Color:
     margin: 0; 
 }
 
+.accnt-btn{
+    color: #fff;
+    border: 3px solid #fff;
+}
+
 .main-bg{
     filter: blur(5px);
     width: 100%;
