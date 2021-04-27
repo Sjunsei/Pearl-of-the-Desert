@@ -14,28 +14,34 @@ Brand Color:
 *{
     font-family: "Helvetica", sans-serif;
     margin: 0; 
+    padding: 0;
 }
 
-/* .accnt-btn{
-    color: #fff; 
-    border: 3px solid rgb(39, 187, 167);
-    padding: 3.5em;
-} */
+header{
+    margin-bottom: 200px;
+    position: relative; 
+}
+
+body{
+    background-color: #757679; 
+}
 
 .main-bg{
     filter: blur(5px);
     width: 100%;
 }
 
+/* The navigation for the footer */
 footer{
-    background-color: #999999;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 35px 10px;
-    border-radius: 5px;
+    background-color: #2A2B31;
     position: sticky;
-    margin-top: 804px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 90px;
+    clear: both;
+    margin-top: 802px;
 }
 
 .nav-link li a{
@@ -49,14 +55,6 @@ footer{
 .nav-link li{
     display: inline-block;
     padding: 0px 20px;
-}
-
-
-i, ul{
-    float: right;
-    list-style: none;
-    text-decoration: none;
-    text-align: left;
 }
 
 .nav-link li a{
