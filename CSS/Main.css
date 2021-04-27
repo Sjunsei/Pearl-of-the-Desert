@@ -14,13 +14,37 @@ Brand Color:
 *{
     font-family: "Helvetica", sans-serif;
     margin: 0; 
-    padding: 0;
+}
+
+h2{
+    color: #fff;
 }
 
 /* Setting the background color of the body only */
 body{
     background-color: #a2a2a2; 
 }
+
+/* Drop Down Menu Sjsunei can  you help me out here on trying to seperate the different sizes for the 
+icon (hamburger) and the listing like font size*/
+.drop-down{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+.drop-down ul li{
+    list-style: none;
+    padding: 1em;
+}
+
+.drop-down a{
+    text-decoration: none;
+    color: #fff;
+    font: 25px;
+}
+
 
 /* Description */
 main{
