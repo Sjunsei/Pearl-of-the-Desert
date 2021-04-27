@@ -28,16 +28,17 @@ Brand Color:
 }
 
 footer{
-    background-color: #696b74;
+    background-color: #999999;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 35px 10px;
     border-radius: 5px;
     position: sticky;
+    margin-top: 804px;
 }
 
-ul li a{
+.nav-link li a{
     color: #fff;
     font-weight: 500;
     font-size: 15px;
@@ -48,6 +49,14 @@ ul li a{
 .nav-link li{
     display: inline-block;
     padding: 0px 20px;
+}
+
+
+i, ul{
+    float: right;
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
 }
 
 .nav-link li a{
