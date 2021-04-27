@@ -22,6 +22,33 @@ body{
     background-color: #a2a2a2; 
 }
 
+/* Description */
+main{
+    color: #fff;
+    padding: 0 50px;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.description{
+    position: relative;
+    max-width: 600px;
+    padding: 40px;
+    /* background: rgba(255, 255, 255, .2); */
+}
+
+.description h2{
+    font-size: 48px;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.description p{
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
 
 /* The navigation for the footer */
 footer{
@@ -33,7 +60,7 @@ footer{
     border-radius: 5px;
     height: 90px;
     clear: both;
-    margin-top: 784px;
+    margin-top: 610px;
 }
 
 .nav-link li a{
