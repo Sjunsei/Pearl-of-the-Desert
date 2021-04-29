@@ -25,12 +25,22 @@ body{
     background-color: #a2a2a2; 
 }
 
+/* Account Bottn  */
+.accnt-btn{
+    font-size: 30px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.accnt-btn:hover{
+    background-color: #000000;
+}
 /* Drop Down Menu */
 
 /* You can use separate font-sizes now - Sjunsei */
 
 /* Fa Icons */
-
 .fas{
     font-size: 50px;
 }
@@ -45,6 +55,7 @@ body{
 .drop-down ul li{
     list-style: none;
     padding: 1em;
+    display: none;
 }
 
 .drop-down a{
@@ -92,7 +103,7 @@ footer{
     border-radius: 5px;
     height: 90px;
     clear: both;
-    margin-top: 610px;
+    margin-top: 42em;
 }
 
 .nav-link li a{
