@@ -25,8 +25,16 @@ body{
     background-color: #a2a2a2; 
 }
 
-/* Drop Down Menu Sjsunei can  you help me out here on trying to seperate the different sizes for the 
-icon (hamburger) and the listing like font size*/
+/* Drop Down Menu */
+
+/* You can use separate font-sizes now - Sjunsei */
+
+/* Fa Icons */
+
+.fas{
+    font-size: 50px;
+}
+
 .drop-down{
     color: #fff;
     list-style: none;
@@ -42,7 +50,7 @@ icon (hamburger) and the listing like font size*/
 .drop-down a{
     text-decoration: none;
     color: #fff;
-    font: 25px;
+    font: 50px;
 }
 
 
