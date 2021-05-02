@@ -27,7 +27,7 @@ body{
     background-color: #a2a2a2; 
 }
 
-/* Account Bottn  */
+/* Account Button  */
 .accnt-btn{
     font-size: 30px;
     border: 2px solid #fff;
@@ -39,8 +39,6 @@ body{
     background-color: #000000;
 }
 /* Drop Down Menu */
-
-/* You can use separate font-sizes now - Sjunsei */
 
 /* Fa Icons */
 .fas{
@@ -134,3 +132,53 @@ footer{
     color: #fff;
     margin-right: 45px;
 }
+
+/* Main Contents */
+
+    /* this is to help separate CSS styles throughout different pages
+    so always add .{NAME OF CLASS} when making CSS changes         */
+    /* AboutUs.html */
+
+
+    /* ContactUs.html */
+    
+    
+    /* DestinationPage.html */
+    
+    
+    /* ForgotPassword.html */
+    
+    
+    /* HomePage.html */
+    
+    
+    /* Main.html */
+    
+    
+    /* My_Acount.html */
+    
+    
+    /* Pearls_of_Emirate.html */
+    
+    
+    /* ResetPassword.html */
+    
+    
+    /* Signin.html */
+    
+    
+    /* Templatepage.html */
+    
+    
+    /* Terms&Conditions.html */
+    
+    
+    /* The_Emirates.html */
+    
+    
+    /* Main.html */
+    
+    
+    /* Gallery.html */
+    
+    
