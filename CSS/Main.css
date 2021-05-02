@@ -1,3 +1,4 @@
+
 /* 
 Primary Colors:
 - #fff
@@ -9,6 +10,7 @@ Secondary Color:
 
 Brand Color:
 - #FFB370
+
 */
 
 *{
@@ -16,26 +18,94 @@ Brand Color:
     margin: 0; 
 }
 
-/* .accnt-btn{
-    color: #fff; 
-    border: 3px solid rgb(39, 187, 167);
-    padding: 3.5em;
-} */
-
-.main-bg{
-    filter: blur(5px);
-    width: 100%;
+h2{
+    color: #fff;
 }
 
-footer{
-    background-color: #999999;
+/* Setting the background color of the body only */
+body{
+    background-color: #a2a2a2; 
+}
+
+/* Account Bottn  */
+.accnt-btn{
+    font-size: 30px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.accnt-btn:hover{
+    background-color: #000000;
+}
+/* Drop Down Menu */
+
+/* You can use separate font-sizes now - Sjunsei */
+
+/* Fa Icons */
+.fas{
+    font-size: 50px;
+}
+
+.drop-down{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+.drop-down ul li{
+    list-style: none;
+    padding: 1em;
+    display: none;
+}
+
+.drop-down a{
+    text-decoration: none;
+    color: #fff;
+    font: 50px;
+}
+
+
+/* Description */
+main{
+    color: #fff;
+    padding: 0 50px;
+    height: 20vh;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 35px 10px;
-    border-radius: 5px;
+}
+
+.description{
+    position: relative;
+    max-width: 600px;
+    padding: 40px;
+    /* background: rgba(255, 255, 255, .2); */
+}
+
+.description h2{
+    font-size: 48px;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.description p{
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+/* The navigation for the footer */
+footer{
+    background-color: #58595a;
     position: sticky;
-    margin-top: 804px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 90px;
+    clear: both;
+    margin-top: 42em;
 }
 
 .nav-link li a{
@@ -49,14 +119,6 @@ footer{
 .nav-link li{
     display: inline-block;
     padding: 0px 20px;
-}
-
-
-i, ul{
-    float: right;
-    list-style: none;
-    text-decoration: none;
-    text-align: left;
 }
 
 .nav-link li a{
