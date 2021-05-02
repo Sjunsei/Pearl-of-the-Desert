@@ -1,7 +1,10 @@
 /* Imports */
 @import url("Footer.CSS");
 @import url("Header.CSS");
+
+
 /* 
+
 Primary Colors:
 - #fff
 - #2A2B31
@@ -14,6 +17,11 @@ Brand Color:
 - #FFB370
 
 */
+
+/* Fa Icons */
+.fas{
+    font-size: 50px;
+}
 
 *{
     font-family: "Helvetica", sans-serif;
@@ -41,11 +49,6 @@ body{
     background-color: #000000;
 }
 /* Drop Down Menu */
-
-/* Fa Icons */
-.fas{
-    font-size: 50px;
-}
 
 .drop-down{
     color: #fff;
