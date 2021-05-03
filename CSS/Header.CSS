@@ -1,0 +1,31 @@
+/* Account Button  */
+.accnt-btn{
+    font-size: 30px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.accnt-btn:hover{
+    background-color: #000000;
+}
+/* Drop Down Menu */
+
+.drop-down{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+.drop-down ul li{
+    list-style: none;
+    padding: 1em;
+    display: none;
+}
+
+.drop-down a{
+    text-decoration: none;
+    color: #fff;
+    font: 50px;
+}
