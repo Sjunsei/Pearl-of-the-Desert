@@ -1,8 +1,6 @@
 /* Imports */
 @import url("Footer.CSS");
 @import url("Header.CSS");
-
-
 /* 
 
 Primary Colors:
@@ -96,6 +94,15 @@ main{
     font-size: 18px;
     padding: 0;
     margin: 0;
+}
+
+/* Background Images */
+.img-1{
+    background-image: url(/Resources/Images/Background/The-Emirates-Bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* filter: blur(8px); 
+    -webkit-filter: blur(8px); */
 }
 
 /* Main Contents */
