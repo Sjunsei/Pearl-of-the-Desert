@@ -1,6 +1,7 @@
 /* Imports */
 @import url("Footer.CSS");
 @import url("Header.CSS");
+@import url("Body.css");
 /* 
 
 Primary Colors:
@@ -35,75 +36,49 @@ body{
     background-color: #a2a2a2; 
 }
 
-/* Account Button  */
-.accnt-btn{
-    font-size: 30px;
-    border: 2px solid #fff;
-    border-radius: 4px;
-    justify-content: center;
-}
-
-.accnt-btn:hover{
-    background-color: #000000;
-}
-/* Drop Down Menu */
-
-.drop-down{
-    color: #fff;
-    list-style: none;
-    text-decoration: none;
-    list-style: none;
-}
-
-.drop-down ul li{
-    list-style: none;
-    padding: 1em;
-    display: none;
-}
-
-.drop-down a{
-    text-decoration: none;
-    color: #fff;
-    font: 50px;
-}
-
-
-/* Description */
-main{
-    color: #fff;
-    padding: 0 50px;
-    height: 20vh;
-    display: flex;
-    align-items: center;
-}
-
-.description{
-    position: relative;
-    max-width: 600px;
-    padding: 40px;
-    /* background: rgba(255, 255, 255, .2); */
-}
-
-.description h2{
-    font-size: 48px;
-    padding: 0;
-    margin: 0 0 20px;
-}
-
-.description p{
-    font-size: 18px;
-    padding: 0;
-    margin: 0;
-}
-
 /* Background Images */
-.img-1{
-    background-image: url(/Resources/Images/Background/The-Emirates-Bg.jpg);
+.banner{
+    position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
-    /* filter: blur(8px); 
-    -webkit-filter: blur(8px); */
 }
+
+main .The_Emirates .banner{
+    background-image: url(/Resources/Images/Background/The-Emirates-Bg.jpg);
+}
+
+main .Destination_Page .banner{
+    background-image: url(/Resources/Images/Background/Choose-Destination.jpg);
+}
+
+main .Destination_Page .banner{
+    background-image: url(/Resources/Images/Background/Choose-Destination.jpg);
+}
+
+main .Gallary .banner{
+    background-image: url(/Resources/Images/Background/Gallery-BG.jpg);
+}
+
+main .Gallary .banner{
+    background-image: url(/Resources/Images/Background/Gallery-BG.jpg);
+}
+
+main .Contact_Us .banner{
+    background-image: url(/Resources/Images/Background/Contact-Us.jpg);
+}
+
+main .About_Us .banner{
+    background-image: url(/Resources/Images/Background/About-Us.jpg);
+}
+
+main .HomePage .banner{
+    background-image: url(/Resources/Images/Background/Homepage-Background.jpg);
+}
+/* 
+main .HomePage .Pearls_of_Emirate{
+    background-image: url(/Resources/Images/Background/);
+} */
+
 
 /* Main Contents */
 
