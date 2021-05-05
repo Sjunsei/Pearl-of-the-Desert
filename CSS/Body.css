@@ -1,5 +1,5 @@
 /* Description */
-main{
+/*main{
     color: #fff;
     padding: 0 50px;
     height: 20vh;
@@ -11,7 +11,7 @@ main{
     position: relative;
     max-width: 600px;
     padding: 40px;
-    /* background: rgba(255, 255, 255, .2); */
+    /* background: rgba(255, 255, 255, .2);
 }
 
 .description h2{
@@ -24,4 +24,22 @@ main{
     font-size: 18px;
     padding: 0;
     margin: 0;
+} */
+
+/* New */
+section {
+    padding: 0 40px;
+}
+
+.heading-text {
+    font-size: 50px;
+}
+
+.more-text {
+    font-size: 50px;
+    margin: 0 0 30px;
+}
+
+.slogan {
+    margin: 0 0 130px;
 }

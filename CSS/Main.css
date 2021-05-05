@@ -2,6 +2,21 @@
 @import url("Footer.CSS");
 @import url("Header.CSS");
 @import url("Body.css");
+
+* {
+    font-family: "Helvetica", sans-serif;
+    color: white;
+}
+
+body {
+    background: #ffffff url("../Resources/Images/Background/Homepage-Background.jpg") no-repeat;
+    background-size: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 /* 
 
 Primary Colors:
@@ -18,7 +33,7 @@ Brand Color:
 */
 
 /* Fa Icons */
-.fas{
+/* .fas{
     font-size: 50px;
 }
 
@@ -29,15 +44,15 @@ Brand Color:
 
 h2{
     color: #fff;
-}
+} */
 
 /* Setting the background color of the body only */
-body{
+/* body{
     background-color: #a2a2a2; 
-}
+} */
 
 /* Background Images */
-.banner{
+/* .banner{
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
@@ -65,7 +80,8 @@ main .About_Us .banner{
 
 main .HomePage .banner{
     background-image: url(/Resources/Images/Background/Homepage-Background.jpg);
-}
+} */
+
 /* 
 main .HomePage .Pearls_of_Emirate{
     background-image: url(/Resources/Images/Background/);

@@ -1,5 +1,7 @@
 /* The navigation for the footer */
-footer{
+
+/* Old */
+/* footer{
     background-color: #58595a;
     position: sticky;
     justify-content: space-between;
@@ -36,4 +38,30 @@ footer{
 .copy-right{
     color: #fff;
     margin-right: 45px;
+} */
+
+/* New */
+footer {
+    font-size: 10px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(24, 24, 24);
+    opacity: 0.6;
+    height: 60px;
+}
+
+footer > div {
+    display: flex;
+    align-self: center;
+}
+
+footer ul {
+    padding: 0;
+    display: flex;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 0 35px 0 0;
 }

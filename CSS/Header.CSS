@@ -1,4 +1,4 @@
-/* Account Button  */
+/* Account Button  
 .accnt-btn{
     font-size: 30px;
     border: 2px solid #fff;
@@ -9,7 +9,7 @@
 .accnt-btn:hover{
     background-color: #000000;
 }
-/* Drop Down Menu */
+/* Drop Down Menu
 
 .drop-down{
     color: #fff;
@@ -28,4 +28,67 @@
     text-decoration: none;
     color: #fff;
     font: 50px;
+}*/
+
+/* New */
+header {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 16px;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 2px;
+    height: 30px;
+    width: 120px;
+}
+
+header ul {
+    padding: 0 0 0 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Button properties */
+
+.container a {
+    color: white;
+    text-decoration: none;
+    float: left;
+    display: block; 
+    font-size: 30px;
+    text-align: center;
+    display: none;
+}
+
+.container a.icon {
+    float: right;
+    display: block;
+}
+
+.container.res {
+    position: relative;
+}
+.container.res .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.container.res a {
+    float: none;
+    display: block;
+    text-align: left;
 }

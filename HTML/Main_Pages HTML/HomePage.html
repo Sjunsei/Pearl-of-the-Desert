@@ -2,111 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!-- Remember to Link All relevant CSS files here -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../../CSS/Main.css" rel="stylesheet" />
-    <title>Pearls of the Desert</title>
+    <link rel="stylesheet" href="/Pearl-of-the-Desert/CSS/Main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Homepage</title>
 </head>
 <body>
-    <!-- Comment -->
-
-    <!-- Header -->
-    <header>
-        <h2>Arabian Pearls</h2>  <a> Account </a>
-        <!-- Dropdown Menu-->
-        <div class="drop-down">
-            <i class="fas fa-bars" alt="Icon">
-                <!-- Items in Dropdown Menu -->
-                <ul class="top-nav-links ">
+    <div class="whole">
+        <header>
+            <h1>Arabian<br>Pearls</h1>
+            <div>
+                <button>Account</button>
+                <ul class="container" id="nav">
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+                    <li><a href="#">Username</a></li> 
                     <li><a href="My_Account.html">My Account</a></li>
                     <li><a href="The_Emirates.html">The Emirates</a></li>
                     <li><a href="../Gallery/Gallery.html">Gallery</a></li>
                     <li><a href="About_Us.html">About Us</a></li>
                     <li><a href="Contact Us.html">Contact Us</a></li>
                 </ul>
-            </i>
-        </div>
-    </header>
-
-    <!-- Main Content -->
-    <main class="HomePage">
-        <div class="banner"></div>
-        <!-- Flex Row -->
-        <div>
-
-            <h1> Discover. </h1>
-            <h1> Explore. </h1>
-            <br>
-            <h1> The Arabian Desert </h1>
-
-            <button><img src="#" alt="Next Icon"></button>
-            <a href="#"> Start your Desert Adventure </a>
-            
-        </div>
-
-        <div>
-
-            <!-- Flex Column -->
-            <!-- Weather Box -->
-            <div>
-                <!-- Flex Column-->
-                <div>
-                    <img src="#" alt="Icon"> 
-                    <p> 31 degress </p>
-                </div>
-
-                <div>
-
-                    <div>
-
-                        <p> 1 </p>
-                        <img src="#" alt="Icon"> 
-                        
-                    </div>
-
-                    <div>
-
-                        <p> 1 </p>
-                        <img src="#" alt="Icon"> 
-                        
-                    </div>
-
-                    <div>
-
-                        <p> 1 </p>
-                        <img src="#" alt="Icon"> 
-                        
-                    </div>
-                    
-                </div>
-
-                <!-- Season Description Box -->
-                <div>
-
-                    <img src="#" alt="Season Icon">
-                    <h6> Season Name </h6>
-                    <p> Description</p>
-                    
-                </div>
-                
             </div>
-        </div>
-    </main>
+        </header>
 
-    <!-- Footer & Navigation Bar -->
-    <footer>
-        <nav>
-            <ul class="nav-link">
-                <li><a href="Contact Us.html">Contact Us</a></li>
-                <li><a href="About_Us.html">About Us</a></li>
-                <li><a href="#">Promotions</a></li>
-                <li><a href="../Gallery/Gallery.html">Gallery</a></li>
-            </ul>
-        </nav>
-        <p class="copy-right"> &#169; Copyright All Rights Reserved 2021 </p>
-    </footer>
+        <section>
+            <p class="heading-text">Discover. </br>Explore.</p>
+            <p class="more-text">The Arabian Desert</p>
+            <p class="slogan">Start Your Desert Adventure</p>
+            <!-- <div>
+                <div class="box-1">
+
+                </div>
+                <div class="box-2">
+                    <h1>(image) Summer</h1>
+                    <p>Hot winds, hot humidity. The perfec weather to spend time by the Corniches.</p>
+                </div>
+            </div> -->
+        </section>
+    
+        <footer>
+            <div>
+                <ul>
+                    <li><a href="Contact Us.html">Contact Us</a></li>
+                    <li><a href="About_Us.html">About Us</a></li>
+                    <li><a href="#">Promotions</a></li>
+                    <li><a href="../Gallery/Gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="copy-right"> All Rights Reserved 2021 </p>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("nav");
+            
+            if (x.className == "container") {
+                x.className += " res";
+            }
+            else {
+                x.className = "container";
+            }
+        }
+    </script>
 </body>
 </html>
