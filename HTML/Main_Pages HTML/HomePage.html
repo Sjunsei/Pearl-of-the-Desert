@@ -2,26 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/Pearl-of-the-Desert/CSS/Main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="../../CSS/Main.css" rel="stylesheet" />
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <title>Homepage</title>
 </head>
 <body>
+
+    <!-- Main Page Content-->
     <div class="whole">
+
         <header>
             <h1>Arabian<br>Pearls</h1>
-            <div>
-                <button>Account</button>
-                <ul class="container" id="nav">
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-                    <li><a href="#">Username</a></li> 
-                    <li><a href="My_Account.html">My Account</a></li>
-                    <li><a href="The_Emirates.html">The Emirates</a></li>
-                    <li><a href="../Gallery/Gallery.html">Gallery</a></li>
-                    <li><a href="About_Us.html">About Us</a></li>
-                    <li><a href="Contact Us.html">Contact Us</a></li>
-                </ul>
-            </div>
+                <div>
+                    <button>Account</button>
+                        <ul class="container" id="nav">
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+                            <li><a href="#">Username</a></li> 
+                            <li><a href="My_Account.html">My Account</a></li>
+                            <li><a href="The_Emirates.html">The Emirates</a></li>
+                            <li><a href="../Gallery/Gallery.html">Gallery</a></li>
+                            <li><a href="About_Us.html">About Us</a></li>
+                            <li><a href="Contact Us.html">Contact Us</a></li>
+                        </ul>
+                </div>
         </header>
 
         <section>
@@ -52,18 +58,9 @@
                 <p class="copy-right"> All Rights Reserved 2021 </p>
             </div>
         </footer>
+        
     </div>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("nav");
-            
-            if (x.className == "container") {
-                x.className += " res";
-            }
-            else {
-                x.className = "container";
-            }
-        }
-    </script>
+    <script src="../../JavaScript/Javascript.js"></script>
+
 </body>
 </html>
