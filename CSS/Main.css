@@ -2,6 +2,7 @@
 @import url("Footer.CSS");
 @import url("Header.CSS");
 @import url("Body.css");
+@import url("background.css");
 
 * {
     font-family: "Helvetica", sans-serif;
