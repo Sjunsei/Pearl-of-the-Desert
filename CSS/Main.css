@@ -18,10 +18,16 @@ body {
     flex-direction: column;
 }
 
+/* Background for each webpage */
 .The_Emirates{
     background: url("../Resources/Images/Background/The-Emirates-Bg.jpg") no-repeat;
     background-size: 100%;
 }
+
+/* .Gallery{
+    background: url("../Resources/Images/Background/Gallery-Bg.jpg") no-repeat;
+    background-size: 100%;
+} */
 
 /* 
 
