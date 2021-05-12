@@ -18,6 +18,11 @@ body {
     flex-direction: column;
 }
 
+.The_Emirates{
+    background: url("../Resources/Images/Background/The-Emirates-Bg.jpg") no-repeat;
+    background-size: 100%;
+}
+
 /* 
 
 Primary Colors:
