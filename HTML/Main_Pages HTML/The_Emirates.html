@@ -3,79 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <!-- Remember to Link All relevant CSS files here -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
     <link href="../../CSS/Main.css" rel="stylesheet" />
-    <title>Document</title>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>The Emirates</title>
 </head>
-<body >
-    <!-- Comment -->
-     <!-- Main Content -->
-     <main class="The_Emirates">
-        <div class="banner"></div>
-        <!-- Flex Row-->
-        <div>
-            <!-- Flex Column-->
-            <h1> The Emirates </h1>
-            <button> View Gallery </button>
-            <button> Popular Locations </button>
-        </div>
-
-        <div>
-
-            <!-- Location Pictures -->
-            <div>
-                <img src="#" alt="Google Maps Icon"> 
-                <b> Region </b>
-                <p> Location Name </p>
-            </div>
-
-            <div>
-                <img src="#" alt="Google Maps Icon"> 
-                <b> Region </b>
-                <p> Location Name </p>
-            </div>
-
-        <!-- Buttons -->
-        <button><img src="#" alt="Prev"></button>
-        <button><img src="#" alt="Next"></button>
-        </div>
-
-    </main>
+<body class="The_Emirates">
+    <!-- Main Page Content-->
     <!-- Header -->
     <header>
-        <label>Label</label> 
-        <a>Log in</a>
-        <a>Sign up</a>
-        <a>Account</a>
-
-        <!-- Dropdown Menu -->
-        <i class="fas fa-bars" alt="Icon">
-
-            <!-- Items in Dropdown Menu -->
-            <ul>
-                <li><a href="My_Account.html">My Account</a></li>
-                <li><a href="The_Emirates.html">The Emirates</a></li>
-                <li><a href="../Gallery/Gallery.html">Gallery</a></li>
-                <li><a href="About_Us.html">About Us</a></li>
-                <li><a href="Contact Us.html">Contact Us</a></li>
-            </ul>
-        </i>
+        <h1>Arabian<br>Pearls</h1>
+            <div>
+                <button>Account</button>
+                    <ul class="container" id="nav">
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+                        <li><a href="#">Username</a></li> 
+                        <li><a href="My_Account.html">My Account</a></li>
+                        <li><a href="The_Emirates.html">The Emirates</a></li>
+                        <li><a href="../Gallery/Gallery.html">Gallery</a></li>
+                        <li><a href="About_Us.html">About Us</a></li>
+                        <li><a href="Contact Us.html">Contact Us</a></li>
+                    </ul>
+            </div>
     </header>
 
-    <!-- Footer -->
+    <section>
+        <div>
+            <p class="heading-text">The Emirates</p>
+            <p class="box the-emirates-1">View </br> Gallery</p>
+            <p class="box the-emirates-2">View </br> Destinations</p>
+        </div>
+        <div class="famous-spots">
+            <div class="box2 the-emirates-3">
+                <img src="/Pearl-of-the-Desert/Resources/Images/Background/Choose-Destination.jpg" alt="">
+                <p><img src="/Pearl-of-the-Desert/Resources/Images/Icons/placeholder.png" alt="img2">Abu Dhabi</p>
+                <p>Grand Mosque</p>
+            </div>
+            <div class="box2 the-emirates-3">
+                <img src="/Pearl-of-the-Desert/Resources/Images/Background/Choose-Destination.jpg" alt="">
+                <p><img src="/Pearl-of-the-Desert/Resources/Images/Icons/placeholder.png" alt="img2">Umm Al Quwain</p>
+                <p>Sheikh Mohammad bin Rashid Al Maktoum Mosque</p>
+            </div>
+    </section>
+
+    <!-- Footer & Navigation Bar-->
     <footer>
-            <!-- Navigation Bar -->
-        <nav>
-            <ul class="nav-link">
+        <div>
+            <ul>
                 <li><a href="Contact Us.html">Contact Us</a></li>
                 <li><a href="About_Us.html">About Us</a></li>
                 <li><a href="#">Promotions</a></li>
                 <li><a href="../Gallery/Gallery.html">Gallery</a></li>
             </ul>
-        </nav>
-        <p class="copy-right"> &#169;Copyright 2021 All rights reserved </p>    
+        </div>
+        <div>
+            <p class="copy-right"> All Rights © Reserved 2021 </p>
+        </div>
     </footer>
+    <div class="overlay"></div>
+    <script src="../../JavaScript/Javascript.js"></script>
 </body>
 </html>
