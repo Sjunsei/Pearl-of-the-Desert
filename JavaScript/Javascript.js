@@ -1,3 +1,5 @@
+
+// Activates the function for Nav bar
 function myFunction() {
     var x = document.getElementById("nav");
     

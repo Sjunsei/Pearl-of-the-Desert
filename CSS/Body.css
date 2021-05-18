@@ -110,3 +110,33 @@ section {
     padding: 2px 20px;
     margin: 5px 0 0;
 }
+
+/* About US CSS */
+
+.About_Us .Main_Container{
+    justify-content: center;
+    margin: 5px;
+    gap: 15px;
+}
+
+.About_Us .Flex_Container1{
+    flex: 3;
+}
+
+.About_Us .Flex_Container2{
+    flex: 1;
+}
+
+.About_Us .Flex_Container3{
+    flex: 2;
+}
+
+.About_Us .container_row{
+    display: flex;
+    flex-direction: row;
+}
+
+.About_Us .container_column{
+    display: flex;
+    flex-direction: column;
+}
