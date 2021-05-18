@@ -2,7 +2,7 @@
 @import url("Footer.CSS");
 @import url("Header.CSS");
 @import url("Body.css");
-@import url("background.css");
+@import url("/SCSS/background.css");
 
 * {
     font-family: "Helvetica", sans-serif;

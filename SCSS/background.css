@@ -1,11 +1,52 @@
-.overlay {
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+.HomePage .Banner-HomePage {
+  background-size: cover;
+  background-image: url(/Resources/Images/Background/Homepage-Background.jpg);
+  z-index: -1;
   position: absolute;
-  opacity: .7;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
 }
 
-.whole {
-  z-index: 1;
+.The_Emirates .Banner-Emirates {
+  background-size: cover;
+  background-image: url(/Resources/Images/Background/The-Emirates-Bg.jpg);
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
+.Destination_Page .Banner-Destination {
+  background-size: cover;
+  background-image: url(/Resources/Images/Background/Destination-picture.jpg);
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
+.About_Us .Banner_About_Us {
+  background-size: cover;
+  background-image: url(/Resources/Images/Background/About-Us.jpg);
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
 }
 /*# sourceMappingURL=background.css.map */
