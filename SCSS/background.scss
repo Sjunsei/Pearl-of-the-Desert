@@ -1,7 +1,5 @@
-// Setting the Background image in the 'HomePage' webpage while having a blur effect
-.HomePage .Banner-HomePage{
+@mixin Website_Banners {
     background-size: cover;
-    background-image: url(/Resources/Images/Background/Homepage-Background.jpg);
     z-index: -1;
     position: absolute;
     width: 100%;
@@ -9,43 +7,29 @@
     background-position: center center;
     background-repeat: no-repeat;
     filter: blur(5px);
+}
+
+
+// Setting the Background image in the 'HomePage' webpage while having a blur effect
+.HomePage .Banner-HomePage{
+    background-image: url(/Resources/Images/Background/Homepage-Background.jpg);
+    @include Website_Banners();
 }
 
 // Setting the Background image in the 'The Emirates' webpage while having a blur effect
 .The_Emirates .Banner-Emirates{
-    background-size: cover;
     background-image: url(/Resources/Images/Background/The-Emirates-Bg.jpg);
-    z-index: -1;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    filter: blur(5px);
+    @include Website_Banners();
 }
 
 // Setting the Background image in the 'Destination' webpage while having a blur effect
 .Destination_Page .Banner-Destination{
-    background-size: cover;
     background-image: url(/Resources/Images/Background/Destination-picture.jpg);
-    z-index: -1;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    filter: blur(5px);
+    @include Website_Banners();
 }
 
 // Setting the Background image in the 'About Us' webpage while having a blur effect
 .About_Us .Banner_About_Us{
-    background-size: cover;
     background-image: url(/Resources/Images/Background/About-Us.jpg);
-    z-index: -1;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    filter: blur(5px);
+    @include Website_Banners();
 }
