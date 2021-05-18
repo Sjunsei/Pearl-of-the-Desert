@@ -229,6 +229,7 @@ section {
     gap: 15px;
 }
 
+/* Flex CSS */
 .About_Us .Flex_Container1{
     flex: 3;
 }
@@ -241,13 +242,43 @@ section {
     flex: 2;
 }
 
+.About_Us .Flex_Container{
+    padding: 10px 40px;
+}
 .About_Us .container_row{
     display: flex;
     flex-direction: row;
 }
+.About_Us .container_Testimonial{
+    gap: 5%;
+}
 
+/* About_Us Background*/
+.About_Us .Banner_About_Us{
+    background-size: cover;
+    background-image: url(/Resources/Images/Background/About-Us.jpg);
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+}
 .About_Us .container_column{
     display: flex;
     flex-direction: column;
 }
 
+.About_Us .Paragraph_Hold{
+    width: 48%;
+    letter-spacing: 3px;
+    word-wrap: break-word;
+}
+
+.About_Us .Testimonial{
+    background: #2A2B31;
+    border: white;
+    border-width: 5px;
+    width: 100px;
+}
