@@ -1,46 +1,5 @@
 /* The navigation for the footer */
 
-/* Old */
-/* footer{
-    background-color: #58595a;
-    position: sticky;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
-    height: 90px;
-    clear: both;
-    margin-top: 42em;
-}
-
-.nav-link li a{
-    color: #fff;
-    font-weight: 500;
-    font-size: 15px;
-    text-decoration: none;
-    list-style: none;
-}
-
-.nav-link li{
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-.nav-link li a{
-    transition: all 0.3s ease 0s;
-}
-
-.nav-link li a:hover{
-   color: #2A2B31;
-   transition: all 0.3s ease 0s;
-}
-
-.copy-right{
-    color: #fff;
-    margin-right: 45px;
-} */
-
-/* New */
 footer {
     font-size: 16px;
     padding: 0 40px;
@@ -49,7 +8,6 @@ footer {
     background-color: rgb(24, 24, 24);
     opacity: 0.6;
     height: 65px;
-    margin-top: 55.1234vh;   
 }
 
 footer > div {
