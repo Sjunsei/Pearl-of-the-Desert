@@ -17,21 +17,21 @@ body {
 .HomePage {
     background: #ffffff url("../Resources/Images/Background/Homepage-Background.jpg") no-repeat;
     background-size: cover;
+
+    /* Background blur
+    filter: blur(3px);
+    -webkit-filter: blur(3px); */
 }
+
+/* .whole{
+    z-index: 1;
+}  */
 
 /* Background for each webpage */
 .The_Emirates{
     background: url("../Resources/Images/Background/The-Emirates-Bg.jpg") no-repeat;
     background-size: cover;
 }
-
-/* Background Blur */
-.HomePage.overlay{
-    filter: blur(10px);
-    -webkit-filter: blur(10px);
-}
-
-
 
 /* .Gallery{
     background: url("../Resources/Images/Background/Gallery-Bg.jpg") no-repeat;
