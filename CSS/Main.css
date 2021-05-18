@@ -17,15 +17,7 @@ body {
 .HomePage {
     background: #ffffff url("../Resources/Images/Background/Homepage-Background.jpg") no-repeat;
     background-size: cover;
-
-    /* Background blur
-    filter: blur(3px);
-    -webkit-filter: blur(3px); */
 }
-
-/* .whole{
-    z-index: 1;
-}  */
 
 /* Background for each webpage */
 .The_Emirates{
