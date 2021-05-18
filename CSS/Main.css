@@ -25,6 +25,14 @@ body {
     background-size: cover;
 }
 
+/* Background Blur */
+.HomePage.overlay{
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+}
+
+
+
 /* .Gallery{
     background: url("../Resources/Images/Background/Gallery-Bg.jpg") no-repeat;
     background-size: 100%;
