@@ -10,18 +10,19 @@
 }
 
 body {
-    background: #ffffff url("../Resources/Images/Background/Homepage-Background.jpg") no-repeat;
-    background-size: 100%;
     padding: 0;
     margin: 0;
-    display: flex;
-    flex-direction: column;
+}
+
+.HomePage {
+    background: #ffffff url("../Resources/Images/Background/Homepage-Background.jpg") no-repeat;
+    background-size: cover;
 }
 
 /* Background for each webpage */
 .The_Emirates{
     background: url("../Resources/Images/Background/The-Emirates-Bg.jpg") no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 /* .Gallery{
