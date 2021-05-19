@@ -34,3 +34,9 @@
     background-image: url(/Resources/Images/Background/About-Us.jpg);
     @include Website_Banners();
 }
+
+// Setting the Background image in the 'Reset Password' webpage while having a blur effect
+.ResetPassword .Banner-ResetPassword {
+    background-image: url(/Resources/Images/Background/Contact-Us.jpg);
+    @include Website_Banners();
+}
