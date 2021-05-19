@@ -223,6 +223,10 @@ section {
 
 /* About US CSS */
 
+.About_Us{
+    height: 94vh;
+}
+
 .About_Us .Main_Container{
     justify-content: center;
     margin: 5px;
@@ -240,6 +244,15 @@ section {
 
 .About_Us .Flex_Container3{
     flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.About_Us .Flex_Container3_Sub{
+    display: flex;
+    gap: 5%;
+    margin: 10px 15px;
+    width: 250px;
 }
 
 .About_Us .Flex_Container{
@@ -253,6 +266,10 @@ section {
     gap: 5%;
 }
 
+.About_Us .container_column{
+    display: flex;
+    flex-direction: column;
+}
 /* About_Us Background*/
 .About_Us .Banner_About_Us{
     background-size: cover;
@@ -265,10 +282,7 @@ section {
     background-repeat: no-repeat;
     filter: blur(5px);
 }
-.About_Us .container_column{
-    display: flex;
-    flex-direction: column;
-}
+
 
 .About_Us .Paragraph_Hold{
     width: 48%;
@@ -277,8 +291,35 @@ section {
 }
 
 .About_Us .Testimonial{
-    background: #2A2B31;
-    border: white;
-    border-width: 5px;
-    width: 100px;
+    display: inline;
+    position: relative;
+    border: solid 1px white;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
 }
+
+.About_Us .Testimonial .Testimonial_Paragraph{
+    margin: 15px 10px;
+}
+
+.About_Us .Testimonial_Profiles{
+    margin: 10px 5px;
+}
+
+.About_Us .Profiles{
+    width: 80px;
+    height: 80px;
+    clip-path: circle();
+    object-fit: contain;
+    object-position: center center;
+}
+
+/* End of About_Us CSS*/
+
+/* Contact US CSS */
+
+.Contact_Us .Main_Container{}
+/* End of Contact US CSS */
