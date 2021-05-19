@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
     <link href="../../CSS/Main.css" rel="stylesheet" />
     <link rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -10,84 +12,76 @@
     <title>Homepage</title>
 </head>
 <body class="HomePage">
-
     <div class="Banner-HomePage"></div>
+    <!-- Header -->
+    <header>
+        <h1>Pearls of the<br>Desert</h1>
+            <div>
+                <button>Account</button>
+                    <ul class="container" id="nav">
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+                        <div class="inner-container">
+                            <li><a href="#">Username</a></li> 
+                            <li><a href="My_Account.html">My Account</a></li>
+                            <li><a href="The_Emirates.html">The Emirates</a></li>
+                            <li><a href="../Gallery/Gallery.html">Gallery</a></li>
+                            <li><a href="About_Us.html">About Us</a></li>
+                            <li><a href="Contact Us.html">Contact Us</a></li>
+                        </div>
+                    </ul>
+            </div>
+    </header>
+
     <!-- Main Page Content-->
-    <div class="whole">
-        <!-- Header -->
-        <header>
-            <h1>Perals of the<br>Desert</h1>
-                <div>
-                    <button>Account</button>
-                        <ul class="container" id="nav">
-                            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-                            <div class="inner-container">
-                                <li><a href="#">Username</a></li> 
-                                <li><a href="My_Account.html">My Account</a></li>
-                                <li><a href="The_Emirates.html">The Emirates</a></li>
-                                <li><a href="../Gallery/Gallery.html">Gallery</a></li>
-                                <li><a href="About_Us.html">About Us</a></li>
-                                <li><a href="Contact Us.html">Contact Us</a></li>
-                            </div>
-                        </ul>
-                </div>
-        </header>
+    <section>
+        <p class="heading-text">Discover. </br>Explore.</p>
+        <p class="more-text">The Arabian Desert</p>
+        <img src="/Pearl-of-the-Desert/Resources/Images/New Icons/Icon feather-arrow-right-circle.svg" alt="right circle" class="small-icon"><p class="slogan">Start Your Desert Adventure</p>
 
-        <section>
-            <p class="heading-text">Discover. </br>Explore.</p>
-            <p class="more-text">The Arabian Desert</p>
-            <img src="/Pearl-of-the-Desert/Resources/Images/New Icons/Icon feather-arrow-right-circle.svg" alt="right circle" class="small-icon"><p class="slogan">Start Your Desert Adventure</p>
-          
-            <div class="temp-box">
-                <div class="main-temp">
-                    <img src="/Pearl-of-the-Desert/Resources/Images/New Icons/Icon weather-day-sunny-overcast.svg" alt="sunny weather">
-                    <p>31°</p>  
-                </div>
-
-                <div class="sub-temp">
-                    <div class="box3">
-                        <p>25%</p>
-                        <img src="/Pearl-of-the-Desert/Resources/Images/New Icons/Icon awesome-temperature-high.svg" alt="temp">
-                    </div>
-                    <div class="box3">
-                        <p>25%</p>
-                        <img src="/Pearl-of-the-Desert/Resources/Images/New Icons/Icon weather-humidity.svg" alt="">
-                    </div>
-                    <div class="box3">
-                        <p>28km/h</p>
-                        <img src="/Pearl-of-the-Desert/Resources/Images/New Icons/Icon metro-wind.svg" alt="wind">
-                    </div>
-                </div>
+        <div class="temp-box">
+            <div class="main-temp">
+                <img src="/Pearl-of-the-Desert/Resources/Images/New Icons/Icon weather-day-sunny-overcast.svg" alt="sunny weather">
+                <p>31°</p>  
             </div>
 
-            <div class="temp-box-2">
-                <div class="main-desc">
-                    <img src="/Pearl-of-the-Desert/Resources/Images/New Icons/Icon metro-fire.svg" alt="">
-                    <h3>Summer</h3>
-                <div class="box-2">
-                    <h1>(image) Summer</h1>
-                    <p>Hot winds, hot humidity. The perfec weather to spend time by the Corniches.</p>
+            <div class="sub-temp">
+                <div class="box3">
+                    <p>25%</p>
+                    <img src="/Pearl-of-the-Desert/Resources/Images/New Icons/Icon awesome-temperature-high.svg" alt="temp">
                 </div>
-                <p>Hot winds, hot humidity. The perfect weather to spend time by the Corniches.</p>
+                <div class="box3">
+                    <p>25%</p>
+                    <img src="/Pearl-of-the-Desert/Resources/Images/New Icons/Icon weather-humidity.svg" alt="">
+                </div>
+                <div class="box3">
+                    <p>28km/h</p>
+                    <img src="/Pearl-of-the-Desert/Resources/Images/New Icons/Icon metro-wind.svg" alt="wind">
                 </div>
             </div>
-        </section>
-    
-        <!-- Footer & Navigation Bar-->
-        <footer>
-            <div>
-                <ul>
-                    <li><a href="Contact Us.html">Contact Us</a></li>
-                    <li><a href="About_Us.html">About Us</a></li>
-                    <li><a href="#">Promotions</a></li>
-                    <li><a href="../Gallery/Gallery.html">Gallery</a></li>
-                </ul>
+        </div>
+        <div class="temp-box-2">
+            <div class="main-desc">
+                <img src="/Pearl-of-the-Desert/Resources/Images/New Icons/Icon metro-fire.svg" alt="">
+                <h3>Summer</h3>
             </div>
-            <div>
-                <p class="copy-right"> All Rights © Reserved 2021 </p>
-            </div>
-        </footer>
-    </div>
+            <p>Hot winds, hot humidity. The perfect weather to spend time by the Corniches.</p>
+        </div>
+    </section>
+
+    <!-- Footer & Navigation Bar-->
+    <footer>
+        <div>
+            <ul>
+                <li><a href="Contact Us.html">Contact Us</a></li>
+                <li><a href="About_Us.html">About Us</a></li>
+                <li><a href="#">Promotions</a></li>
+                <li><a href="../Gallery/Gallery.html">Gallery</a></li>
+            </ul>
+        </div>
+        <div>
+            <p class="copy-right"> All Rights © Reserved 2021 </p>
+        </div>
+    </footer>
     <script src="../../JavaScript/Javascript.js"></script>
 
 </body>
