@@ -221,6 +221,23 @@ section {
     width: 20px;
 }
 
+.buttons button {
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+}
+
+.buttons button:hover {
+    background-color: #FFB370;
+}
+
+.buttons button:active {
+    background-color: #FFA85C;
+    box-shadow: 0 4px #cccccc;
+    transform: translateY(4px);
+}
+
 /* About US CSS */
 
 .About_Us{
