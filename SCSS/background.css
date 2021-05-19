@@ -7,8 +7,9 @@
   height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
+  -webkit-filter: blur(4.5px);
+          filter: blur(4.5px);
+  background: cover;
 }
 
 .The_Emirates .Banner-Emirates {
@@ -20,8 +21,9 @@
   height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
+  -webkit-filter: blur(4.5px);
+          filter: blur(4.5px);
+  background: cover;
 }
 
 .Destination_Page .Banner-Destination {
@@ -33,8 +35,9 @@
   height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
+  -webkit-filter: blur(4.5px);
+          filter: blur(4.5px);
+  background: cover;
 }
 
 .About_Us .Banner_About_Us {
@@ -46,7 +49,8 @@
   height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
+  -webkit-filter: blur(4.5px);
+          filter: blur(4.5px);
+  background: cover;
 }
 /*# sourceMappingURL=background.css.map */
