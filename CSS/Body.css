@@ -321,5 +321,68 @@ section {
 
 /* Contact US CSS */
 
-.Contact_Us .Main_Container{}
+.Contact_Us .Main_Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Contact_Us .Main_Container .Sub_Container{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+}
+
+.Contact_Us .Sub_Container img{
+    width: 15%;
+}
+
+.Contact_Us .Sub_Container .btn{
+    padding: 3% 3%;
+    display: flex;
+    text-align: start;
+    border: solid white 1px;
+    width: 510px;
+    height: 105px;
+    border-radius: 10px;
+}
+.Contact_Us .Sub_Container .btn3{
+    padding: 3% 3%;
+    display: flex;
+    text-align: start;
+    border: solid white 1px;
+    width: 510px;
+    height: 105px;
+    border-radius: 10px;
+}
+.Contact_Us .Sub_Container .invisible .btn3 a{
+    text-decoration: none;
+    margin: 0px 115px;
+}
+.Contact_Us .Sub_Container .btn:hover,:focus{
+    background-color: rgba(0, 0, 0, .2);
+}
+.Contact_Us .Sub_Container .Invisible{
+    border: solid wheat 5px;
+}
+.Contact_Us .Sub_Container .Invisible button{
+    border: none;
+}
+.Contact_Us .Sub_Container .Invisible img{
+    width: 10%;
+}
+.Contact_Us .Main_Container .Sub_Container1{
+    gap: 15%;
+}
+
+.Contact_Us .Sub_Container .Sub_Button{
+    text-align: start;
+    margin: 15px 0px;
+}
+
+.Contact_Us .Sub_Container b{
+    margin: 4% 5%;
+}
+.Contact_Us .Flex_Container{
+}
 /* End of Contact US CSS */
