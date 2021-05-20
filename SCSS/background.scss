@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     filter: blur(2px);
     background: cover;
+    background-color: #2A2B31;
 }
 
 
@@ -38,5 +39,15 @@
 // Setting the Background image in the 'Reset Password' webpage while having a blur effect
 .ResetPassword .Banner-ResetPassword {
     background-image: url(/Resources/Images/Background/Contact-Us.jpg);
+    @include Website_Banners();
+}
+
+.Contact_US .Banner-Contacts{
+    background-image: url(/Resources/Images/Background/Contact-Us.jpg);
+    @include Website_Banners();
+}
+
+.Gallery .Banner-Gallery{
+    background-image: url(/Resources/Images/Background/Gallery-BG.jpg);
     @include Website_Banners();
 }
