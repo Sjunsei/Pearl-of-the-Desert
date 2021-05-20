@@ -14,22 +14,6 @@ body {
     margin: 0;
 }
 
-.HomePage {
-    background: #ffffff url("../Resources/Images/Background/Homepage-Background.jpg") no-repeat;
-    background-size: cover;
-}
-
-/* Background for each webpage */
-.The_Emirates{
-    background: url("../Resources/Images/Background/The-Emirates-Bg.jpg") no-repeat;
-    background-size: cover;
-}
-
-/* .Gallery{
-    background: url("../Resources/Images/Background/Gallery-Bg.jpg") no-repeat;
-    background-size: 100%;
-} */
-
 /* 
 
 Primary Colors:

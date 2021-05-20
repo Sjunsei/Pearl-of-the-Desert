@@ -221,6 +221,23 @@ section {
     width: 20px;
 }
 
+.buttons button {
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+}
+
+.buttons button:hover {
+    background-color: #FFB370;
+}
+
+.buttons button:active {
+    background-color: #FFA85C;
+    box-shadow: 0 4px #cccccc;
+    transform: translateY(4px);
+}
+
 /* About US CSS */
 
 .About_Us{
@@ -386,3 +403,55 @@ section {
 .Contact_Us .Flex_Container{
 }
 /* End of Contact US CSS */
+
+/* ResetPassword CSS */
+.ResetPassword section h1 {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.ResetPassword section p {
+    font-size: 13px;
+}
+
+.ResetPassword .email {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.ResetPassword .email img {
+    width: 35px;
+}
+
+.ResetPassword .email input {
+    background-color: transparent;
+    border-radius: 10px;
+    border: #fff solid 1px;
+    padding: 10px 15px;
+    width: 250px;
+}
+
+.ResetPassword .email input::placeholder {
+    color: #fff;
+  }
+
+.ResetPassword >section button {
+    margin: 20px 0;
+    padding: 15px 20px;
+    background-color: #FFB370;
+    border-radius: 13px;
+    border: none;
+    font-size: 0.75rem;
+    margin-bottom: 33vh;
+}
+
+.ResetPassword .fact {
+    position: absolute;
+    top: 245px;
+    right: 100px;
+}
+
+.ResetPassword .fact h3 {
+    margin: 0;
+}
