@@ -7,9 +7,10 @@
   height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-filter: blur(4.5px);
-          filter: blur(4.5px);
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
   background: cover;
+  background-color: #2A2B31;
 }
 
 .The_Emirates .Banner-Emirates {
@@ -21,9 +22,10 @@
   height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-filter: blur(4.5px);
-          filter: blur(4.5px);
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
   background: cover;
+  background-color: #2A2B31;
 }
 
 .Destination_Page .Banner-Destination {
@@ -35,9 +37,10 @@
   height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-filter: blur(4.5px);
-          filter: blur(4.5px);
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
   background: cover;
+  background-color: #2A2B31;
 }
 
 .About_Us .Banner_About_Us {
@@ -49,8 +52,54 @@
   height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-filter: blur(4.5px);
-          filter: blur(4.5px);
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
   background: cover;
+  background-color: #2A2B31;
+}
+
+.ResetPassword .Banner-ResetPassword {
+  background-image: url(/Resources/Images/Background/Contact-Us.jpg);
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  background: cover;
+  background-color: #2A2B31;
+}
+
+.Contact_US .Banner-Contacts {
+  background-image: url(/Resources/Images/Background/Contact-Us.jpg);
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  background: cover;
+  background-color: #2A2B31;
+}
+
+.Gallery .Banner-Gallery {
+  background-image: url(/Resources/Images/Background/Gallery-BG.jpg);
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  background: cover;
+  background-color: #2A2B31;
 }
 /*# sourceMappingURL=background.css.map */

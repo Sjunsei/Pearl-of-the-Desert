@@ -26,31 +26,31 @@
     margin: 0;
 } */
 
-/* Homepage */
+/* All pages */
 section {
     padding: 0 40px;
 }
 
-.heading-text {
+/* Homepage */
+.HomePage .heading-text, .HomePage .more-text {
     font-size: 50px;
 }
 
-.more-text {
-    font-size: 50px;
+.HomePage .more-text {
     margin: 0 0 30px;
 }
 
-.slogan {
+.HomePage .slogan {
     margin-bottom: 55.1234vh;   
 }
 
-.small-icon {
+.HomePage .small-icon {
     width: 20px;
     float: left;
     padding-right: 20px;
 }
 
-.temp-box {
+.HomePage .temp-box {
     position: absolute;
     top: 200px;
     right: 80px;
@@ -65,7 +65,7 @@ section {
     flex-basis: 100%;
 }
 
-.main-temp {
+.HomePage .main-temp {
     display: flex;
     flex-basis: 100%;
     align-content: center;
@@ -73,11 +73,11 @@ section {
     font-size: 20px;
 }
 
-.main-temp img {
+.HomePage .main-temp img {
     width: 50px;
 }
 
-.sub-temp {
+.HomePage .sub-temp {
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -85,23 +85,23 @@ section {
     justify-content: space-between;
 }
 
-.sub-temp .box3 {
+.HomePage .sub-temp .box3 {
     display: flex;
     flex-direction: column;
     font-size: 10px;
     text-align: center;
 }
 
-.sub-temp .box3 p {
+.HomePage .sub-temp .box3 p {
     margin: 5px;
 }
 
-.sub-temp .box3 img {
+.HomePage .sub-temp .box3 img {
     width: 12px;
     margin: 0 auto;
 }
 
-.temp-box-2 {
+.HomePage .temp-box-2 {
     position: absolute;
     top: 355px;
     right: 80px;
@@ -116,22 +116,22 @@ section {
     flex-basis: 100%;
 }
 
-.main-desc {
+.HomePage .main-desc {
     display: flex;
     align-items: flex-end;
     margin-bottom: 10px;
 }
 
-.main-desc img {
+.HomePage .main-desc img {
     width: 25px;
 }
 
-.main-desc h3 {
+.HomePage .main-desc h3 {
     padding: 0 0 0 15px;
     margin: 0;
 }
 
-.temp-box-2 p {
+.HomePage .temp-box-2 p {
     font-size: 12px;
     margin: 0;
 }
@@ -143,7 +143,11 @@ section {
     justify-content: space-between;
 }
 
-.box {
+.The_Emirates .heading-text {
+    font-size: 50px;
+}
+
+.The_Emirates .box {
     width: 180px;
     height: 100px;
     display: flex;
@@ -154,26 +158,27 @@ section {
     border-radius: 5px;
 }
 
-.the-emirates-1 {
+.The_Emirates .the-emirates-1 {
     background-color: #FFB370;
 }
-.the-emirates-1:hover {
+
+.The_Emirates .the-emirates-1:hover {
     background-color: #FFA85C;
 }
 
-.the-emirates-2 {
+.The_Emirates .the-emirates-2 {
     border: 1px solid white;
-    margin-bottom: 30vh;   
+    margin-bottom: 30vh;
 }
 
-.famous-spots {
+.The_Emirates .famous-spots {
     display: flex; 
     flex-direction: row; 
     gap: 10px;
     flex-wrap: wrap;
 }
 
-.box2 {
+.The_Emirates .box2 {
     margin: 50px 0 10px;
     width: 300px;
     height: 360px;
@@ -185,7 +190,7 @@ section {
     background-color: #2A2B31;
 }
 
-.box2 img {
+.The_Emirates .box2 img {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -193,32 +198,49 @@ section {
     object-fit: cover;
 }
 
-.box2 p {
+.The_Emirates .box2 p {
     font-size: 0.75rem;
     padding: 2px 20px;
     margin: 5px 0 0;
 }
 
-.box2 p img {
+.The_Emirates .box2 p img {
     width: 12px;
     height: 12px;
     padding: 0 2px 0 0;
 }
 
-.side-box {
+.The_Emirates .side-box {
     display: flex;
     flex-direction: column;
 }
 
-.buttons {
+.The_Emirates .buttons {
     display: flex;
     justify-content: space-between;
     font-size: 12px;
 }
 
-.buttons img {
+.The_Emirates .buttons img {
     padding: 10px 10px 0 0;
     width: 20px;
+}
+
+.The_Emirates .buttons button {
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+}
+
+.The_Emirates .buttons button:hover {
+    background-color: #FFB370;
+}
+
+.The_Emirates .buttons button:active {
+    background-color: #FFA85C;
+    box-shadow: 0 4px #cccccc;
+    transform: translateY(4px);
 }
 
 /* About US CSS */
@@ -387,6 +409,59 @@ section {
 }
 /* End of Contact US CSS */
 
+/* ResetPassword and CreateAnAccount similar CSS */
+.form {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.form img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+
+.form input {
+    background-color: transparent;
+    border-radius: 10px;
+    border: #fff solid 1px;
+    padding: 10px 15px;
+    width: 250px;
+}
+
+.form input::placeholder {
+    color: #fff;
+}
+
+.fact {
+    position: absolute;
+    top: 245px;
+    right: 100px;
+}
+
+.fact h3 {
+    margin: 0;
+}
+
+.orange-button {
+    margin: 20px 0;
+    padding: 15px 20px;
+    background-color: #FFB370;
+    border-radius: 13px;
+    border: none;
+    font-size: 0.75rem;
+}
+
+.transparent-button {
+    margin: 20px 0;
+    padding: 15px 20px;
+    background-color: transparent;
+    border-radius: 13px;
+    border: 1px solid #fff;
+    font-size: 0.75rem;
+}
+
 /* ResetPassword CSS */
 .ResetPassword section h1 {
     font-size: 35px;
@@ -397,44 +472,58 @@ section {
     font-size: 13px;
 }
 
-.ResetPassword .email {
-    display: flex;
-    gap: 10px;
-    margin-top: 20px;
-}
-
-.ResetPassword .email img {
-    width: 35px;
-}
-
-.ResetPassword .email input {
-    background-color: transparent;
-    border-radius: 10px;
-    border: #fff solid 1px;
-    padding: 10px 15px;
-    width: 250px;
-}
-
-.ResetPassword .email input::placeholder {
-    color: #fff;
-  }
-
-.ResetPassword >section button {
-    margin: 20px 0;
-    padding: 15px 20px;
-    background-color: #FFB370;
-    border-radius: 13px;
-    border: none;
-    font-size: 0.75rem;
+.ResetPassword section button {
     margin-bottom: 33vh;
 }
 
-.ResetPassword .fact {
-    position: absolute;
-    top: 245px;
-    right: 100px;
+/* Create An Account page */
+
+.CreateAnAccount section h1 {
+    font-size: 35px;
 }
 
-.ResetPassword .fact h3 {
-    margin: 0;
+.CreateAnAccount section p {
+    font-size: 13px;
+}
+
+.CreateAnAccount .right-content {
+    width: 327px;
+}
+
+.CreateAnAccount .form div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.CreateAnAccount .form div>div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.CreateAnAccount .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.CreateAnAccount .buttons div {
+    display: flex;
+    gap: 20px;
+}
+
+.CreateAnAccount .buttons div button {
+    padding: 5px 20px;
+    width: 140px;
+    margin: 30px 0 5px;
+}
+
+.CreateAnAccount .buttons p {
+    font-size: 0.6rem;
+    margin: 10px 0 20vh 0;
+}
+
+.CreateAnAccount .buttons a:hover {
+    color: #FFB370;
 }

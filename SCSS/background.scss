@@ -6,8 +6,9 @@
     height: 100%;
     background-position: center center;
     background-repeat: no-repeat;
-    filter: blur(4.5px);
+    filter: blur(2px);
     background: cover;
+    background-color: #2A2B31;
 }
 
 
@@ -37,6 +38,22 @@
 
 // Setting the Background image in the 'Reset Password' webpage while having a blur effect
 .ResetPassword .Banner-ResetPassword {
+    background-image: url(/Resources/Images/Blur-Background/mikk-tonissoo-PWf-Dr2qpOo-unsplash.jpg);
+    @include Website_Banners();
+}
+
+// Setting the Background image in the 'Create An Account' webpage while having a blur effect
+.CreateAnAccount .Banner-CreateAnAccount {
+    background-image: url(/Resources/Images/Blur-Background/mikk-tonissoo-PWf-Dr2qpOo-unsplash.jpg);
+    @include Website_Banners();
+}
+
+.Contact_US .Banner-Contacts{
     background-image: url(/Resources/Images/Background/Contact-Us.jpg);
+    @include Website_Banners();
+}
+
+.Gallery .Banner-Gallery{
+    background-image: url(/Resources/Images/Background/Gallery-BG.jpg);
     @include Website_Banners();
 }
