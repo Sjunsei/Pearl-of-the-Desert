@@ -37,6 +37,12 @@
 
 // Setting the Background image in the 'Reset Password' webpage while having a blur effect
 .ResetPassword .Banner-ResetPassword {
-    background-image: url(/Resources/Images/Background/Contact-Us.jpg);
+    background-image: url(/Resources/Images/Blur-Background/mikk-tonissoo-PWf-Dr2qpOo-unsplash.jpg);
+    @include Website_Banners();
+}
+
+// Setting the Background image in the 'Create An Account' webpage while having a blur effect
+.CreateAnAccount .Banner-CreateAnAccount {
+    background-image: url(/Resources/Images/Blur-Background/mikk-tonissoo-PWf-Dr2qpOo-unsplash.jpg);
     @include Website_Banners();
 }
