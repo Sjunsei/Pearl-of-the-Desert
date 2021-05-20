@@ -7,8 +7,8 @@
   height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-filter: blur(4.5px);
-          filter: blur(4.5px);
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
   background: cover;
 }
 
@@ -21,8 +21,8 @@
   height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-filter: blur(4.5px);
-          filter: blur(4.5px);
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
   background: cover;
 }
 
@@ -35,8 +35,8 @@
   height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-filter: blur(4.5px);
-          filter: blur(4.5px);
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
   background: cover;
 }
 
@@ -49,8 +49,8 @@
   height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-filter: blur(4.5px);
-          filter: blur(4.5px);
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
   background: cover;
 }
 /*# sourceMappingURL=background.css.map */
