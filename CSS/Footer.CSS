@@ -11,14 +11,13 @@ footer {
     height: 65px;
 }
 
-footer > div {
-    display: flex;
-    align-self: center;
-}
-
 footer ul {
     padding: 0;
     display: flex;
+}
+
+footer li {
+    list-style-type: none;
 }
 
 footer a {
