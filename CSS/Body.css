@@ -343,6 +343,10 @@ section {
 
 /* Contact US CSS */
 
+.Contact_Us {
+    height: 94vh;
+}
+
 .Contact_Us .Main_Container{
     display: flex;
     flex-direction: row;
@@ -385,7 +389,6 @@ section {
     background-color: rgba(0, 0, 0, .2);
 }
 .Contact_Us .Sub_Container .Invisible{
-    border: solid wheat 5px;
 }
 .Contact_Us .Sub_Container .Invisible button{
     border: none;
@@ -404,6 +407,17 @@ section {
 
 .Contact_Us .Sub_Container b{
     margin: 4% 5%;
+}
+
+.Contact_Us .Main_Container .Input_Container{
+    padding: 25px 45px;
+    border: solid white 1px;
+}
+
+.Contact_Us .Main_Container .Input_Container input{
+    border: solid white 1px;
+    border-radius: 15px;
+    background: transparent;
 }
 .Contact_Us .Flex_Container{
 }
