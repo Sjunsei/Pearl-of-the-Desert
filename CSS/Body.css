@@ -498,6 +498,9 @@ section {
 }
 
 /* Create An Account page */
+.CreateAnAccount {
+    height: 94vh;
+}
 
 .CreateAnAccount section h1 {
     font-size: 35px;
