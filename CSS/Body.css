@@ -32,16 +32,16 @@ section {
 }
 
 /* Homepage */
+.HomePage {
+    height: 94vh;
+}
+
 .HomePage .heading-text, .HomePage .more-text {
     font-size: 50px;
 }
 
 .HomePage .more-text {
     margin: 0 0 30px;
-}
-
-.HomePage .slogan {
-    margin-bottom: 55.1234vh;   
 }
 
 .HomePage .small-icon {
