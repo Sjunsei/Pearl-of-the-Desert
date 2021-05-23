@@ -554,6 +554,10 @@ section {
 
 /* Destination_Page CSS */
 
+.Destination_Page {
+    height: 94vh;
+}
+
 .Destination_Page .Main_Container{
     display: flex;
     flex-direction: row;
@@ -585,6 +589,9 @@ section {
     flex-direction: column;
     flex: 5;
     align-content: flex-end;
+}
+.Destination_Page .Main_Container .Flex_Contain2 .btn_hold {
+    margin-top: 10px;
 }
 .Destination_Page .Main_Container .Flex_Contain2 .btn_hold img{
     height: 75%;
