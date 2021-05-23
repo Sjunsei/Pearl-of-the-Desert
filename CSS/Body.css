@@ -480,6 +480,10 @@ section {
 }
 
 /* ResetPassword CSS */
+.ResetPassword {
+    height: 94vh;
+}
+
 .ResetPassword section h1 {
     font-size: 35px;
     margin-bottom: 0;
