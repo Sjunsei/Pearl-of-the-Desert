@@ -32,16 +32,16 @@ section {
 }
 
 /* Homepage */
+.HomePage {
+    height: 94vh;
+}
+
 .HomePage .heading-text, .HomePage .more-text {
     font-size: 50px;
 }
 
 .HomePage .more-text {
     margin: 0 0 30px;
-}
-
-.HomePage .slogan {
-    margin-bottom: 55.1234vh;   
 }
 
 .HomePage .small-icon {
@@ -137,6 +137,9 @@ section {
 }
 
 /* The Emirates page */
+.The_Emirates {
+    height: 94vh;
+}
 
 .The_Emirates section {
     display: flex;
@@ -343,6 +346,10 @@ section {
 
 /* Contact US CSS */
 
+.Contact_Us {
+    height: 94vh;
+}
+
 .Contact_Us .Main_Container{
     display: flex;
     flex-direction: row;
@@ -381,18 +388,19 @@ section {
     text-decoration: none;
     margin: 0px 115px;
 }
+
 .Contact_Us .Sub_Container .btn:hover,:focus{
     background-color: rgba(0, 0, 0, .2);
 }
-.Contact_Us .Sub_Container .Invisible{
-    border: solid wheat 5px;
-}
+
 .Contact_Us .Sub_Container .Invisible button{
     border: none;
 }
+
 .Contact_Us .Sub_Container .Invisible img{
     width: 10%;
 }
+
 .Contact_Us .Main_Container .Sub_Container1{
     gap: 15%;
 }
@@ -405,7 +413,16 @@ section {
 .Contact_Us .Sub_Container b{
     margin: 4% 5%;
 }
-.Contact_Us .Flex_Container{
+
+.Contact_Us .Main_Container .Input_Container{
+    padding: 25px 45px;
+    border: solid white 1px;
+}
+
+.Contact_Us .Main_Container .Input_Container input{
+    border: solid white 1px;
+    border-radius: 15px;
+    background: transparent;
 }
 /* End of Contact US CSS */
 
@@ -463,6 +480,10 @@ section {
 }
 
 /* ResetPassword CSS */
+.ResetPassword {
+    height: 94vh;
+}
+
 .ResetPassword section h1 {
     font-size: 35px;
     margin-bottom: 0;
@@ -477,6 +498,9 @@ section {
 }
 
 /* Create An Account page */
+.CreateAnAccount {
+    height: 94vh;
+}
 
 .CreateAnAccount section h1 {
     font-size: 35px;
@@ -526,4 +550,139 @@ section {
 
 .CreateAnAccount .buttons a:hover {
     color: #FFB370;
+}
+
+/* Destination_Page CSS */
+
+.Destination_Page {
+    height: 94vh;
+}
+
+.Destination_Page .Main_Container{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+.Destination_Page .Main_Container .Sub_Contain1 button{
+    width: 200px;
+    height: 120px;
+    margin: 2% 0%;
+    padding: 5% 0%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid white 2px;
+    border-radius: 10px;
+}
+.Destination_Page .Main_Container .Sub_Contain1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4%;
+    justify-content: center;
+}
+.Destination_Page .Main_Container .Flex_Contain2{
+    padding-right: 10%;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+    align-content: flex-end;
+}
+.Destination_Page .Main_Container .Flex_Contain2 .btn_hold {
+    margin-top: 10px;
+}
+.Destination_Page .Main_Container .Flex_Contain2 .btn_hold img{
+    height: 75%;
+    width: 75%;
+}
+.Destination_Page .Main_Container .Flex_Contain2 .btn{
+    background: none;
+    border: none;
+}
+.Destination_Page .Main_Container .Flex_Contain1{
+    flex: 4;
+}
+.Destination_Page .Sub_Contain1 img{
+    background-color: transparent;
+    height: 5vh;
+}
+.Destination_Page .Destination_Img img{
+    border-radius: 15px;
+    background-color: transparent;
+    height: 65vh;
+}
+
+/* End of Destination_Page CSS */
+
+.Terms_and_Conditions {
+    height: 94vh;
+}
+
+.Terms_and_Conditions .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.Terms_and_Conditions section h1 {
+    font-size: 50px;
+    margin: 80px 0 0 0;
+}
+
+.Terms_and_Conditions section p {
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+/* Dubai Overview */
+.Dubai_Overview {
+    height: 94vh;
+}
+
+.Dubai_Overview section h1 {
+    font-size: 50px;
+    margin: 80px 0 10px 0;
+}
+
+.Dubai_Overview section p {
+    font-size: 20px;
+    letter-spacing: 3px;
+    width: 500px;
+    margin-bottom: 0;
+}
+
+.Dubai_Overview .orange-button {
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.Dubai_Overview section .buttons {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Dubai_Overview .left-content {
+    width: 700px;
+    position: absolute;
+    top: 165px;
+    right: 85px;
+}
+
+.Dubai_Overview .images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.Dubai_Overview .images .item {
+    grid-column: 2;
+}
+
+.Dubai_Overview .images img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
 }

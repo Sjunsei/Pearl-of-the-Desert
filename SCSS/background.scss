@@ -26,7 +26,7 @@
 
 // Setting the Background image in the 'Destination' webpage while having a blur effect
 .Destination_Page .Banner-Destination{
-    background-image: url(/Resources/Images/Background/Destination-picture.jpg);
+    background-image: url(/Resources/Images/Background/Choose-Destination.jpg);
     @include Website_Banners();
 }
 
@@ -48,12 +48,24 @@
     @include Website_Banners();
 }
 
-.Contact_US .Banner-Contacts{
+// Setting the Background image in the 'Terms and Conditions' webpage while having a blur effect
+.Terms_and_Conditions .Banner-Terms_and_Conditions {
+    background-image: url(/Resources/Images/Blur-Background/mikk-tonissoo-PWf-Dr2qpOo-unsplash.jpg);
+    @include Website_Banners();
+}
+
+.Contact_Us .Banner-Contacts{
     background-image: url(/Resources/Images/Background/Contact-Us.jpg);
     @include Website_Banners();
 }
 
 .Gallery .Banner-Gallery{
     background-image: url(/Resources/Images/Background/Gallery-BG.jpg);
+    @include Website_Banners();
+}
+
+// Setting the Background image in the 'Dubai Overview' webpage while having a blur effect
+.Dubai_Overview .Banner-Dubai_Overview {
+    background-image: url(/Resources/Images/Blur-Background/Emirate-Desc-Bg.jpg);
     @include Website_Banners();
 }

@@ -8,73 +8,80 @@
     <!-- Remember to Link All relevant CSS files here -->
 
     <link href="../../CSS/Main.css" rel="stylesheet" />
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Destinations</title>
 </head>
-<body class="Destination_Page">
-
-    <div class="Banner-Destination"></div>
-    <!-- Comment -->
-    <div>
+<body>
+    <div class="Destination_Page">
+        <!-- Background Image -->
+        <div class="Banner-Destination"></div>
+        
+        <!-- Header -->
         <header>
-            <label>Arabian Pearls</label> 
-            <a>Log in</a>
-            <a>Sign up</a>
-            <a>Account</a>
+            <h1>Pearls of the<br>Desert</h1><!-- Website name -->
+            <div><!-- Seperate div to space-between the elements -->
+                <button>Account</button> <!-- links to the account page -->
+                <ul class="container" id="nav"> <!-- Navigation bar -->
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a> <!-- Nav bar icon -->
+                    
+                    <div class="inner-container"> <!-- Hidden elements -->
+                        <li><a href="Create_An_Account.html">My Account</a></li>
+                        <li><a href="The_Emirates.html">The Emirates</a></li>
+                        <li><a href="../Gallery/Gallery.html">Gallery</a></li>
+                        <li><a href="About_Us.html">About Us</a></li>
+                        <li><a href="Contact Us.html">Contact Us</a></li>
+                    </div>
+                </ul>
+            </div>
+        </header>
     
-            <!-- Dropdown Menu-->
-        <i class="fas fa-bars" alt="Icon">
-    
-                <!-- Items in Dropdown Menu -->
-            <ul>
-                <li><a href="My_Account.html">My Account</a></li>
-                <li><a href="The_Emirates.html">The Emirates</a></li>
-                <li><a href="../Gallery/Gallery.html">Gallery</a></li>
-                <li><a href="About_Us.html">About Us</a></li>
-                <li><a href="Contact Us.html">Contact Us</a></li>
-            </ul>
-        </i>
-     </header>
+        <!-- Main Content -->
+        <div class="Main_Container">
+            <div class="Flex_Contain Flex_Contain1">
+                <div>
+                    <h1> Choose your Destination </h1>
+                </div>
 
-    <!-- Main Content -->
-    <main class="Destination_Page">
-        <div class="banner"></div>
-        <!-- Flex Row -->
-        <div>
-
-            <h1> Choose your Destination </h1>
-            <div>
-                <button><img src="#" alt="Abu Dhabi"> Abu Dhabi </button>
-                <button><img src="#" alt="Dubai"> Dubai </button>
-                <button><img src="#" alt="Sharjah"> Sharjah </button>
-                <button><img src="#" alt="Ajman"> Ajman </button>
-                <button><img src="#" alt="Umm Al Quwain"> Umm Al Quwain </button>
-                <button><img src="#" alt="Ras Al Khaimah"> Ras Al Khaimah </button>
-                <button><img src="#" alt="Fujairah"> Fujairah </button>
+                <div class="Sub_Contain1 ">
+                    <button><img src="/Resources/Images/Icons/AUH.png" alt="Abu Dhabi"><p>Abu Dhabi</p></button>
+                    <button><img src="/Resources/Images/Icons/DXB.png" alt="Dubai"><p>Dubai</p></button>
+                    <button><img src="/Resources/Images/Icons/SHJ.png" alt="Sharjah"><p>Sharjah</p></button>
+                    <button><img src="/Resources/Images/Icons/Ajman.png" alt="Ajman"><p>Ajman</p></button>
+                    <button><img src="/Resources/Images/Icons/Umm Al Quwain.png" alt="Umm Al Quwain"><p>Umm Al Quwain</p></button>
+                    <button><img src="/Resources/Images/Icons/RAK.png" alt="Ras Al Khaimah"><p>Ras Al Khaimah</p></button>
+                    <button><img src="/Resources/Images/Icons/Fujairah.png" alt="Fujairah"><p>Fujairah</p></button>
+                </div>
             </div>
             
+            <div class="Flex_Contain2 ">
+                <div class="Flex_Contain Sub_Contain2 Destination_Img">
+                    <div>
+                        <img src="/Resources/Images/Background/Destination-picture.jpg" alt="Picture">
+                    </div>
+                    
+                    <div class="btn_hold">
+                        <button class="btn"><img src="/Resources/Images/New Icons/Icon feather-arrow-left-circle.svg" alt="prev"></button>
+                        <button class="btn"><img src="/Resources/Images/New Icons/Icon feather-arrow-right-circle.svg" alt="next"></button>
+                    </div>
+                </div>
+            </div>  
         </div>
-
-        <div>
-            <img src="#" alt="Picture">
-            <button><img src="#" alt="prev"></button>
-            <button><img src="#" alt="next"></button>
-        </div>
-        
-    </main>
-   
-    <!-- Footer & Navigation Bar -->
-    <footer>
-        <nav>
-            <ul class="nav-link">
-                <li><a href="Contact Us.html">Contact Us</a></li>
-                <li><a href="About_Us.html">About Us</a></li>
-                <li><a href="#">Promotions</a></li>
-                <li><a href="../Gallery/Gallery.html">Gallery</a></li>
-            </ul>
-        </nav>
-        <p class="copy-right"> &#169; Copyright All Rights Reserved 2021 </p>
-    </footer>
     </div>
 
+    <!-- Footer & Navigation Bar-->
+    <footer>
+        <ul> <!-- Footer navigation bar -->
+            <li><a href="Contact Us.html">Contact Us</a></li>
+            <li><a href="About_Us.html">About Us</a></li>
+            <li><a href="#">Promotions</a></li>
+            <li><a href="../Gallery/Gallery.html">Gallery</a></li>
+        </ul>
+        <p class="copy-right"> All Rights © Reserved 2021 </p> <!-- Copyright text -->
+    </footer>
+
+
+    <!-- Javascript -->
+    <script src="../../JavaScript/Javascript.js"></script> <!-- Header navigation bar -->
 </body>
 </html>
