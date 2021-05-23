@@ -686,3 +686,13 @@ section {
     height: 250px;
     object-fit: cover;
 }
+
+.Dubai_Overview .left-content p {
+    width: 700px;
+    font-size: 15px;
+    text-align: right;
+}
+
+.Dubai_Overview .left-content p:hover {
+    text-decoration: underline;
+}
