@@ -48,6 +48,12 @@
     @include Website_Banners();
 }
 
+// Setting the Background image in the 'Terms and Conditions' webpage while having a blur effect
+.Terms_and_Conditions .Banner-Terms_and_Conditions {
+    background-image: url(/Resources/Images/Blur-Background/mikk-tonissoo-PWf-Dr2qpOo-unsplash.jpg);
+    @include Website_Banners();
+}
+
 .Contact_Us .Banner-Contacts{
     background-image: url(/Resources/Images/Background/Contact-Us.jpg);
     @include Website_Banners();

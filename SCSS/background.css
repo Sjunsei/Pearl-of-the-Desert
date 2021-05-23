@@ -29,7 +29,7 @@
 }
 
 .Destination_Page .Banner-Destination {
-  background-image: url(/Resources/Images/Background/Choose-Destination.jpg);
+  background-image: url(/Resources/Images/Background/Destination-picture.jpg);
   background-size: cover;
   z-index: -1;
   position: absolute;
@@ -74,6 +74,21 @@
 }
 
 .CreateAnAccount .Banner-CreateAnAccount {
+  background-image: url(/Resources/Images/Blur-Background/mikk-tonissoo-PWf-Dr2qpOo-unsplash.jpg);
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  background: cover;
+  background-color: #2A2B31;
+}
+
+.Terms_and_Conditions .Banner-Terms_and_Conditions {
   background-image: url(/Resources/Images/Blur-Background/mikk-tonissoo-PWf-Dr2qpOo-unsplash.jpg);
   background-size: cover;
   z-index: -1;
