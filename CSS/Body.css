@@ -615,6 +615,7 @@ section {
 }
 
 /* End of Destination_Page CSS */
+
 .Terms_and_Conditions {
     height: 94vh;
 }
@@ -633,4 +634,55 @@ section {
 .Terms_and_Conditions section p {
     font-size: 20px;
     letter-spacing: 5px;
+}
+
+/* Dubai Overview */
+.Dubai_Overview {
+    height: 94vh;
+}
+
+.Dubai_Overview section h1 {
+    font-size: 50px;
+    margin: 80px 0 10px 0;
+}
+
+.Dubai_Overview section p {
+    font-size: 20px;
+    letter-spacing: 3px;
+    width: 500px;
+    margin-bottom: 0;
+}
+
+.Dubai_Overview .orange-button {
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.Dubai_Overview section .buttons {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Dubai_Overview .left-content {
+    width: 700px;
+    position: absolute;
+    top: 165px;
+    right: 85px;
+}
+
+.Dubai_Overview .images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.Dubai_Overview .images .item {
+    grid-column: 2;
+}
+
+.Dubai_Overview .images img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
 }
