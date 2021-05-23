@@ -686,3 +686,31 @@ section {
     height: 250px;
     object-fit: cover;
 }
+/* Gallery CSS */
+.Gallery .Main_Container{
+    padding: 0% 5%;
+}
+.Gallery .Main_Container .Image_Holder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15%;
+    align-items: center;
+}
+.Gallery .Main_Container .Image_Holder img{
+    width: 350px;
+    height: 300px;
+    margin: 1% 0%;
+    background-size: cover;
+}
+.Gallery .Main_Container .Image_Holder button{
+    background:rgb(255, 202, 88);
+    border-radius: 5px;
+    border-style: none;
+    margin: 0% 5%;
+    width: 11vw;
+    height: 9vh;
+}
+
+/* End of Gallery CSS */
