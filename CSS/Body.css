@@ -608,3 +608,22 @@ section {
 }
 
 /* End of Destination_Page CSS */
+.Terms_and_Conditions {
+    height: 94vh;
+}
+
+.Terms_and_Conditions .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.Terms_and_Conditions section h1 {
+    font-size: 50px;
+    margin: 80px 0 0 0;
+}
+
+.Terms_and_Conditions section p {
+    font-size: 20px;
+    letter-spacing: 5px;
+}
