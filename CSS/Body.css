@@ -137,6 +137,9 @@ section {
 }
 
 /* The Emirates page */
+.The_Emirates {
+    height: 94vh;
+}
 
 .The_Emirates section {
     display: flex;
