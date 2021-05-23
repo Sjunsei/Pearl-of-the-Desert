@@ -714,3 +714,13 @@ section {
 }
 
 /* End of Gallery CSS */
+
+.Dubai_Overview .left-content p {
+    width: 700px;
+    font-size: 15px;
+    text-align: right;
+}
+
+.Dubai_Overview .left-content p:hover {
+    text-decoration: underline;
+}
