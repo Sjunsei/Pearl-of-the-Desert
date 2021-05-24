@@ -459,17 +459,21 @@ section {
     right: 100px;
 }
 
-.fact h3 {
+.fact h1 {
     margin: 0;
+}
+
+.fact p i{
+    font-size: 20px;
 }
 
 .orange-button {
     margin: 20px 0;
-    padding: 15px 20px;
+    padding: 15px 25px;
     background-color: #FFB370;
     border-radius: 13px;
     border: none;
-    font-size: 0.75rem;
+    font-size: 1.39rem;
 }
 
 .transparent-button {
@@ -478,7 +482,7 @@ section {
     background-color: transparent;
     border-radius: 13px;
     border: 1px solid #fff;
-    font-size: 0.75rem;
+    font-size: 1.2rem;
 }
 
 /* ResetPassword CSS */
@@ -546,8 +550,8 @@ section {
 }
 
 .CreateAnAccount .buttons p {
-    font-size: 0.6rem;
-    margin: 10px 0 20vh 0;
+    font-size: 0.71rem;
+    margin: 10px 10 20vh 10;
 }
 
 .CreateAnAccount .buttons a:hover {
