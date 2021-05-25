@@ -75,3 +75,9 @@
     background-image: url(/Resources/Images/Background/Gallery-Sharjah_Background.jpg);
     @include Website_Banners();
 }
+
+// Setting the Background image in the 'Dubai Overview' webpage while having a blur effect
+.Overview .Banner-AbuDhabi_Overview {
+    background-image: url(/Resources/Images/Background/Gallery-AbuDhabi_Background.jpg);
+    @include Website_Banners();
+}
