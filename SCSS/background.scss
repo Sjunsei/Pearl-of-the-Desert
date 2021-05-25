@@ -6,7 +6,7 @@
     height: 100%;
     background-position: center center;
     background-repeat: no-repeat;
-    filter: blur(2px);
+    filter: blur(20px) brightness(0.832);
     background: cover;
     background-color: #2A2B31;
 }
@@ -65,7 +65,19 @@
 }
 
 // Setting the Background image in the 'Dubai Overview' webpage while having a blur effect
-.Dubai_Overview .Banner-Dubai_Overview {
+.Overview .Banner-Dubai_Overview {
     background-image: url(/Resources/Images/Blur-Background/Emirate-Desc-Bg.jpg);
+    @include Website_Banners();
+}
+
+// Setting the Background image in the 'Dubai Overview' webpage while having a blur effect
+.Overview .Banner-Sharjah_Overview {
+    background-image: url(/Resources/Images/Background/Gallery-Sharjah_Background.jpg);
+    @include Website_Banners();
+}
+
+// Setting the Background image in the 'Dubai Overview' webpage while having a blur effect
+.Overview .Banner-AbuDhabi_Overview {
+    background-image: url(/Resources/Images/Background/Gallery-AbuDhabi_Background.jpg);
     @include Website_Banners();
 }
