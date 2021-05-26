@@ -346,20 +346,22 @@ section {
 
 /* Contact US CSS */
 
-.Contact_Us {
-    height: 94vh;
-}
-
 .Contact_Us .Main_Container{
+    margin: 5vh 5vw;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    height: 80vh;
+}
+
+.Contact_Us .Main_Container h1{
+    font-size: 64px;
 }
 
 .Contact_Us .Main_Container .Sub_Container{
     display: flex;
     flex-direction: column;
-    width: 900px;
+    width: 100vw;
 }
 
 .Contact_Us .Sub_Container img{
@@ -367,16 +369,20 @@ section {
 }
 
 .Contact_Us .Sub_Container .btn{
-    padding: 3% 3%;
+    align-items: center;
+    padding-left: 2%;
+    font-size: large;
     display: flex;
     text-align: start;
+    color: none;
     border: solid white 1px;
-    width: 510px;
+    width: 500px;
     height: 105px;
     border-radius: 10px;
 }
 .Contact_Us .Sub_Container .btn3{
     padding: 3% 3%;
+    font-size: larger;
     display: flex;
     text-align: start;
     border: solid white 1px;
@@ -385,12 +391,13 @@ section {
     border-radius: 10px;
 }
 .Contact_Us .Sub_Container .invisible .btn3 a{
+    background-color: none;
     text-decoration: none;
     margin: 0px 115px;
 }
 
-.Contact_Us .Sub_Container .btn:hover,:focus{
-    background-color: rgba(0, 0, 0, .2);
+.Contact_Us .Sub_Container .btn:hover{
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .Contact_Us .Sub_Container .Invisible button{
@@ -402,7 +409,11 @@ section {
 }
 
 .Contact_Us .Main_Container .Sub_Container1{
-    gap: 15%;
+    gap: 2%;
+}
+
+.Contact_Us .btn1, .btn2,.btn3{
+    background-color: transparent;
 }
 
 .Contact_Us .Sub_Container .Sub_Button{
@@ -415,14 +426,52 @@ section {
 }
 
 .Contact_Us .Main_Container .Input_Container{
-    padding: 25px 45px;
-    border: solid white 1px;
-}
-
-.Contact_Us .Main_Container .Input_Container input{
+    position: relative;
+    margin-top: 5%;
+    margin-right: 5%;
+    padding: 4% 0% 6% 0%;
+    width: 40vw;
+    height: 45vh;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
     border: solid white 1px;
     border-radius: 15px;
+}
+.Contact_Us .Main_Container .Input_Container h4{
+    font-size: x-large;
+    align-self: center;
+    width: 80%;
+}
+.Contact_Us .Main_Container .Input_Container form{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.Contact_Us .Main_Container .Input_Container form input,
+.Contact_Us .Main_Container .Input_Container form textarea{
+    margin: 2% 0%;
+    height: 4vh;
+    width: 15vw;
+    border: solid white 1px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
     background: transparent;
+}
+.Contact_Us .Main_Container .Input_Container form input,
+.Contact_Us .Main_Container .Input_Container textarea:focus{
+    outline: none;
+}
+::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.6);
+}
+.Contact_Us .Main_Container .Input_Container textarea{
+    padding-top: 2%;
+    align-content: flex-start;
+    word-wrap:initial;
+    width: 100%;
+    height: 30vh;
 }
 /* End of Contact US CSS */
 
@@ -604,6 +653,13 @@ section {
 .Destination_Page .Main_Container .Flex_Contain1{
     flex: 4;
 }
+.Destination_Page .Main_Container .Flex_Contain1 .CyD{
+    text-align: center;
+    width: 40vw;
+}
+.Destination_Page .Main_Container .Flex_Contain1 h1{
+    font-size: 56px;
+}
 .Destination_Page .Sub_Contain1 img{
     background-color: transparent;
     height: 5vh;
@@ -611,7 +667,10 @@ section {
 .Destination_Page .Destination_Img img{
     border-radius: 15px;
     background-color: transparent;
+    object-fit: contain;
+    object-position: center center;
     height: 65vh;
+    width: 25vw;
 }
 
 /* End of Destination_Page CSS */
@@ -686,6 +745,7 @@ section {
     height: 250px;
     object-fit: cover;
 }
+
 /* Gallery CSS */
 .Gallery .Main_Container{
     padding: 0% 5%;
