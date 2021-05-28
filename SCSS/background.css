@@ -147,4 +147,34 @@
   background: cover;
   background-color: #2A2B31;
 }
+
+.Overview .Banner-Sharjah_Overview {
+  background-image: url(/Resources/Images/Background/Gallery-Sharjah_Background.jpg);
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(20px) brightness(0.832);
+          filter: blur(20px) brightness(0.832);
+  background: cover;
+  background-color: #2A2B31;
+}
+
+.Overview .Banner-AbuDhabi_Overview {
+  background-image: url(/Resources/Images/Background/Gallery-AbuDhabi_Background.jpg);
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(20px) brightness(0.832);
+          filter: blur(20px) brightness(0.832);
+  background: cover;
+  background-color: #2A2B31;
+}
 /*# sourceMappingURL=background.css.map */
