@@ -81,3 +81,23 @@
     background-image: url(/Resources/Images/Background/Gallery-AbuDhabi_Background.jpg);
     @include Website_Banners();
 }
+
+.Overview .Banner-Ajman_Overview{
+    background-image:url(/Resources/Images/Background/Gallery-Ajman_Background.jpg);
+    @include Website_Banners();
+}
+
+.Overview .Banner-Fujairah_Overview{
+    background-image:url(/Resources/Images/Background/Gallery-Fujairah_Background.jpg);
+    @include Website_Banners();
+}
+
+.Overview .Banner-RasAlKhaimah_Overview{
+    background-image:url(/Resources/Images/Background/Gallery-RasAlKhaimah_Background.jpg);
+    @include Website_Banners();
+}
+
+.Overview .Banner-UmmAlQuwain_Overview{
+    background-image:url(/Resources/Images/Background/Gallery-UmmAlQuwain_Background.jpg);
+    @include Website_Banners();
+}
