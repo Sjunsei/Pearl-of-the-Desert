@@ -107,3 +107,33 @@
     background-image: url(/Resources/Images/Gallery/Dubai/Dubai-Mall.jpg);
     @include Website_Banners();
 }
+
+.Mall_Of_Emirates .Banner-Mall-Of-Emirates{
+    background-image: url(/Resources/Images/Gallery/Dubai/Mall-of-Emirates.jpg);
+    @include Website_Banners();
+}
+
+.Dubai_Canal .Banner-Dubai-Canal{
+    background-image: url(/Resources/Images/Gallery/Dubai/Dubai-Canal.jpg);
+    @include Website_Banners();
+}
+
+.Burj_Khalifa .Banner-Burj-Khalifa{
+    background-image: url(/Resources/Images/Gallery/Dubai/Dubai-Canal.jpg);
+    @include Website_Banners();
+}
+
+.Burj_Al_Arab .Banner-Burj-Al-Arab{
+    background-image: url(/Resources/Images/Gallery/Dubai/Burj-Al-Arab.jpg);
+    @include Website_Banners();
+}
+
+.Formula_Rosa .Banner-Formula-Rosa{
+    background-image: url(/Resources/Images/Gallery/Gallery-Content3-AbuDhabi.jpg);
+    @include Website_Banners();
+}
+
+.Louvre .Banner-Louvre{
+    background-image: url(/Resources/Images/Gallery/Abu\ Dhabi/);
+    @include Website_Banners();
+}
