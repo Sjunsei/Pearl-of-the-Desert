@@ -101,3 +101,9 @@
     background-image:url(/Resources/Images/Background/Gallery-UmmAlQuwain_Background.jpg);
     @include Website_Banners();
 }
+
+// Tourist Background Pages
+.Dubai_Mall .Banner-Dubai-Mall{
+    background-image: url(/Resources/Images/Gallery/Dubai/Dubai-Mall.jpg);
+    @include Website_Banners();
+}
