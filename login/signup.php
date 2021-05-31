@@ -10,6 +10,8 @@ session_start();
         //data variables
         $User_name = $_POST['User_name'];
         $Password = $_POST['Password'];
+        $Tel = $_POST['Tel'];
+        $Email = $_POST['E-mail'];
 
         //Checks if username and password has value
 
