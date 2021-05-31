@@ -621,8 +621,8 @@ section {
 .Destination_Page .Main_Container .Sub_Contain1 button{
     width: 200px;
     height: 120px;
-    margin: 2% 0%;
-    padding: 5% 0%;
+    margin: 2vh 0vw;
+    padding: 2vh 0vw;
     background-color: transparent;
     display: flex;
     flex-direction: column;
