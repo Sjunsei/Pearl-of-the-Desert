@@ -68,6 +68,7 @@
     height: 580%;
 }
 
+// Overview pages
 // Setting the Background image in the 'Dubai Overview' webpage while having a blur effect
 .Overview .Banner-Dubai_Overview {
     background-image: url(/Resources/Images/Blur-Background/Emirate-Desc-Bg.jpg);
@@ -103,6 +104,12 @@
 
 .Overview .Banner-UmmAlQuwain_Overview{
     background-image:url(/Resources/Images/Background/Gallery-UmmAlQuwain_Background.jpg);
+    @include Website_Banners();
+}
+
+// Pearls of the Emirates Pages
+.PearlsOfTheEmirates .Banner-Dubai_PearlsOfTheEmirates{
+    background-image: url(/Resources/Images/Blur-Background/mikk-tonissoo-PWf-Dr2qpOo-unsplash.jpg);
     @include Website_Banners();
 }
 
