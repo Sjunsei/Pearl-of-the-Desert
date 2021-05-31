@@ -131,6 +131,11 @@
           filter: blur(20px) brightness(0.832);
   background: cover;
   background-color: #2A2B31;
+  background-size: auto;
+  background-repeat: repeat-y;
+  -o-object-fit: fill;
+     object-fit: fill;
+  height: 580%;
 }
 
 .Overview .Banner-Dubai_Overview {
@@ -329,7 +334,6 @@
 }
 
 .Louvre .Banner-Louvre {
-  background-image: url(/Resources/Images/Gallery/Abu);
   background-size: cover;
   z-index: -1;
   position: absolute;

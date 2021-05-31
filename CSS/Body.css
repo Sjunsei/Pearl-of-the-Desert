@@ -772,7 +772,7 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 15%;
+    gap: 10%;
     align-items: center;
 }
 .Gallery .Main_Container .Image_Holder img{
@@ -785,7 +785,7 @@ section {
     background:rgb(255, 202, 88);
     border-radius: 5px;
     border-style: none;
-    margin: 0% 5%;
+    margin: 0% 4%;
     width: 11vw;
     height: 9vh;
 }

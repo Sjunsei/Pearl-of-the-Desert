@@ -62,6 +62,10 @@
 .Gallery .Banner-Gallery{
     background-image: url(/Resources/Images/Background/Gallery-BG.jpg);
     @include Website_Banners();
+    background-size: auto;
+    background-repeat: repeat-y;
+    object-fit: fill;
+    height: 580%;
 }
 
 // Setting the Background image in the 'Dubai Overview' webpage while having a blur effect
@@ -134,6 +138,5 @@
 }
 
 .Louvre .Banner-Louvre{
-    background-image: url(/Resources/Images/Gallery/Abu\ Dhabi/);
     @include Website_Banners();
 }
