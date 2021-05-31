@@ -334,6 +334,7 @@
 }
 
 .Louvre .Banner-Louvre {
+  background-image: url(/Resources/Images/Gallery/Abu_Dhabi/Louvre/Louvre1.jpg);
   background-size: cover;
   z-index: -1;
   position: absolute;
