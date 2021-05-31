@@ -137,6 +137,13 @@
     @include Website_Banners();
 }
 
+<<<<<<< Updated upstream
 .Louvre .Banner-Louvre{
     @include Website_Banners();
 }
+=======
+// .Louvre .Banner-Louvre{
+//     background-image: url(/Resources/Images/Gallery/Abu\ Dhabi/);
+//     @include Website_Banners();
+// }
+>>>>>>> Stashed changes
