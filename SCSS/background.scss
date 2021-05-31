@@ -175,6 +175,16 @@
     @include Website_Banners();
 }
 
+.Natural_Reserve .Banner-Al-Zorah-Natural-Reserve{
+    background-image: url(/Resources/Images/Gallery/Ajman/Al-Zorah-Natural-Reserve.jpg);
+    @include Website_Banners();
+}
+
+.Wast_Wetland_Center .Banner-Wast-Wetland-Center{
+    background-image: url(/Resources/Images/Gallery/Ajman/Wasit-Wetland-Center1.jpg);
+    @include Website_Banners();
+}
+
 // Fujairah BG
 .Al_Biyah_Mosque_in_Fujairah .Banner-Fujairah-Mosque{
     background-image: url(/Resources/Images/Gallery/Fujairah/Al-Bidyah-Mosque-in-Fujairah.jpg);
@@ -223,4 +233,38 @@
 }
 
 // Sharjah BG
+.Sharjah_Museum_Of_Islamic_Civilization .Banner-Sharjah-Museum-Of-Islamic-Civilization{
+    background-image: url(/Resources/Images/Gallery/Sharjah/Sharjah-Museum-of-Islamic-Civilization.jpg);
+    @include Website_Banners();
+}
 
+.Al_Noor_Island .Banner-Al-Noor-Island{
+    background-image: url(/Resources/Images/Gallery/Sharjah/Al-Noor-Island2.jpg);
+    @include Website_Banners();
+}
+
+.Al_Noor_Mosque .Banner-Al-Noor-Mosque{
+    background-image: url(/Resources/Images/Gallery/Sharjah/Al-Noor-Mosque.jpg);
+    @include Website_Banners();
+}
+
+// Umm Al Quwain BG
+.Al_Ali_Fort .Banner-Al_Ali_Fort{
+    background-image: url(/Resources/Images/Gallery/UAQ/Al-Ali-Fort.jpg);
+    @include Website_Banners();
+}
+
+.UAQ_National_Museum .Banner-UAQ-National-Museum{
+    background-image: url(/Resources/Images/Gallery/UAQ/Umm-Al-Quwain-National-Museum.jpg);
+    @include Website_Banners();
+}
+
+.Bassata_Desert_Village .Banner-Bassata-Desert-Village{
+    background-image: url(/Resources/Images/Gallery/UAQ/Bassata-Desert-Village.jpg);
+    @include Website_Banners();
+}
+
+.UAQ_Beach .Banner-UAQ-Beach{
+    background-image: url(/Resources/Images/Gallery/UAQ/UAQ-beach.jpg);
+    @include Website_Banners();
+}

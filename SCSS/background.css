@@ -438,6 +438,36 @@
   background-color: #2A2B31;
 }
 
+.Natural_Reserve .Banner-Al-Zorah-Natural-Reserve {
+  background-image: url(/Resources/Images/Gallery/Ajman/Al-Zorah-Natural-Reserve.jpg);
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(20px) brightness(0.832);
+          filter: blur(20px) brightness(0.832);
+  background: cover;
+  background-color: #2A2B31;
+}
+
+.Wast_Wetland_Center .Banner-Wast-Wetland-Center {
+  background-image: url(/Resources/Images/Gallery/Ajman/Wasit-Wetland-Center1.jpg);
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(20px) brightness(0.832);
+          filter: blur(20px) brightness(0.832);
+  background: cover;
+  background-color: #2A2B31;
+}
+
 .Al_Biyah_Mosque_in_Fujairah .Banner-Fujairah-Mosque {
   background-image: url(/Resources/Images/Gallery/Fujairah/Al-Bidyah-Mosque-in-Fujairah.jpg);
   background-size: cover;
@@ -560,6 +590,111 @@
 
 .Suwaidi_Pealr .Banner-Suwaidi-Peal {
   background-image: url(/Resources/Images/Gallery/RAK/Suwaidi-Pearl.jpg);
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(20px) brightness(0.832);
+          filter: blur(20px) brightness(0.832);
+  background: cover;
+  background-color: #2A2B31;
+}
+
+.Sharjah_Museum_Of_Islamic_Civilization .Banner-Sharjah-Museum-Of-Islamic-Civilization {
+  background-image: url(/Resources/Images/Gallery/Sharjah/Sharjah-Museum-of-Islamic-Civilization.jpg);
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(20px) brightness(0.832);
+          filter: blur(20px) brightness(0.832);
+  background: cover;
+  background-color: #2A2B31;
+}
+
+.Al_Noor_Island .Banner-Al-Noor-Island {
+  background-image: url(/Resources/Images/Gallery/Sharjah/Al-Noor-Island2.jpg);
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(20px) brightness(0.832);
+          filter: blur(20px) brightness(0.832);
+  background: cover;
+  background-color: #2A2B31;
+}
+
+.Al_Noor_Mosque .Banner-Al-Noor-Mosque {
+  background-image: url(/Resources/Images/Gallery/Sharjah/Al-Noor-Mosque.jpg);
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(20px) brightness(0.832);
+          filter: blur(20px) brightness(0.832);
+  background: cover;
+  background-color: #2A2B31;
+}
+
+.Al_Ali_Fort .Banner-Al_Ali_Fort {
+  background-image: url(/Resources/Images/Gallery/UAQ/Al-Ali-Fort.jpg);
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(20px) brightness(0.832);
+          filter: blur(20px) brightness(0.832);
+  background: cover;
+  background-color: #2A2B31;
+}
+
+.UAQ_National_Museum .Banner-UAQ-National-Museum {
+  background-image: url(/Resources/Images/Gallery/UAQ/Umm-Al-Quwain-National-Museum.jpg);
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(20px) brightness(0.832);
+          filter: blur(20px) brightness(0.832);
+  background: cover;
+  background-color: #2A2B31;
+}
+
+.Bassata_Desert_Village .Banner-Bassata-Desert-Village {
+  background-image: url(/Resources/Images/Gallery/UAQ/Bassata-Desert-Village.jpg);
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(20px) brightness(0.832);
+          filter: blur(20px) brightness(0.832);
+  background: cover;
+  background-color: #2A2B31;
+}
+
+.UAQ_Beach .Banner-UAQ-Beach {
+  background-image: url(/Resources/Images/Gallery/UAQ/UAQ-beach.jpg);
   background-size: cover;
   z-index: -1;
   position: absolute;
