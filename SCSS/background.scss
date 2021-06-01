@@ -128,6 +128,11 @@
     @include Website_Banners();
 }
 
+.PearlsOfTheEmirates .Banner-Fujairah_PearlsOfTheEmirates{
+    background-image: url(/Resources/Images/Gallery/Fujairah/al-rabi-tower-main.jpg);
+    @include Website_Banners();
+}
+
 // Tourist Background Pages
 // Dubai BG
 .Dubai_Mall .Banner-Dubai-Mall{
