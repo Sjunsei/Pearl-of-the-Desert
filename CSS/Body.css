@@ -775,11 +775,13 @@ section {
     gap: 20px;
     align-items: center;
     margin-bottom: 50px;
+    align-items: baseline;
 }
 
 .PearlsOfTheEmirates .grid .information * {
     margin: 0;
     padding: 0;
+    width: 380px;
 }
 
 .PearlsOfTheEmirates .grid .information p {
@@ -800,14 +802,13 @@ section {
 }
 
 .PearlsOfTheEmirates .place-1 > div, .PearlsOfTheEmirates .place-2 > div {
-    width: 480px;
+    width: 500px;
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
 .PearlsOfTheEmirates .place-1 > div button, .PearlsOfTheEmirates .place-2 > div button {
-    width: 300px;
     padding: 10px 20px;
     border: none;
     background-color: #FFB370;
@@ -827,6 +828,7 @@ section {
     background-color: #FFB370;
     border-radius: 10px;
     font-size: 18px;
+    align-self: center;
 }
 
 .PearlsOfTheEmirates .grid > button:hover {
