@@ -784,6 +784,11 @@ section {
     width: 380px;
 }
 
+.PearlsOfTheEmirates .grid .information h4 * {
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
 .PearlsOfTheEmirates .grid .information p {
     margin: 5px 0 0;
 }
