@@ -113,6 +113,11 @@
     @include Website_Banners();
 }
 
+.PearlsOfTheEmirates .Banner-Abu_Dhabi_PearlsOfTheEmirates{
+    background-image: url(/Resources/Images/Gallery/Abu_Dhabi/Qasr_Al-Hosn/QAH.jpg);
+    @include Website_Banners();
+}
+
 // Tourist Background Pages
 // Dubai BG
 .Dubai_Mall .Banner-Dubai-Mall{

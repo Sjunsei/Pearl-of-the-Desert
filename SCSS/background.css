@@ -258,6 +258,21 @@
   background-color: #2A2B31;
 }
 
+.PearlsOfTheEmirates .Banner-Abu_Dhabi_PearlsOfTheEmirates {
+  background-image: url(/Resources/Images/Gallery/Abu_Dhabi/Qasr_Al-Hosn/QAH.jpg);
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(20px) brightness(0.832);
+          filter: blur(20px) brightness(0.832);
+  background: cover;
+  background-color: #2A2B31;
+}
+
 .Dubai_Mall .Banner-Dubai-Mall {
   background-image: url(/Resources/Images/Gallery/Dubai/Dubai-Mall.jpg);
   background-size: cover;
