@@ -3,6 +3,11 @@ section {
     padding: 0 40px;
 }
 
+/* Home Button */
+.HomeButton{
+    text-decoration: none;
+    text-emphasis: none;
+}
 /* Homepage */
 .HomePage {
     height: 94vh;
