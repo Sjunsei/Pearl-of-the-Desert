@@ -1,31 +1,3 @@
-/* Description */
-/*main{
-    color: #fff;
-    padding: 0 50px;
-    height: 20vh;
-    display: flex;
-    align-items: center;
-}
-
-.description{
-    position: relative;
-    max-width: 600px;
-    padding: 40px;
-    /* background: rgba(255, 255, 255, .2);
-}
-
-.description h2{
-    font-size: 48px;
-    padding: 0;
-    margin: 0 0 20px;
-}
-
-.description p{
-    font-size: 18px;
-    padding: 0;
-    margin: 0;
-} */
-
 /* All pages */
 section {
     padding: 0 40px;
@@ -348,20 +320,22 @@ section {
 
 /* Contact US CSS */
 
-.Contact_Us {
-    height: 94vh;
-}
-
 .Contact_Us .Main_Container{
+    margin: 5vh 5vw;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    height: 80vh;
+}
+
+.Contact_Us .Main_Container h1{
+    font-size: 64px;
 }
 
 .Contact_Us .Main_Container .Sub_Container{
     display: flex;
     flex-direction: column;
-    width: 900px;
+    width: 100vw;
 }
 
 .Contact_Us .Sub_Container img{
@@ -369,16 +343,20 @@ section {
 }
 
 .Contact_Us .Sub_Container .btn{
-    padding: 3% 3%;
+    align-items: center;
+    padding-left: 2%;
+    font-size: large;
     display: flex;
     text-align: start;
+    color: none;
     border: solid white 1px;
-    width: 510px;
+    width: 500px;
     height: 105px;
     border-radius: 10px;
 }
 .Contact_Us .Sub_Container .btn3{
     padding: 3% 3%;
+    font-size: larger;
     display: flex;
     text-align: start;
     border: solid white 1px;
@@ -387,12 +365,13 @@ section {
     border-radius: 10px;
 }
 .Contact_Us .Sub_Container .invisible .btn3 a{
+    background-color: none;
     text-decoration: none;
     margin: 0px 115px;
 }
 
-.Contact_Us .Sub_Container .btn:hover,:focus{
-    background-color: rgba(0, 0, 0, .2);
+.Contact_Us .Sub_Container .btn:hover{
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .Contact_Us .Sub_Container .Invisible button{
@@ -404,7 +383,11 @@ section {
 }
 
 .Contact_Us .Main_Container .Sub_Container1{
-    gap: 15%;
+    gap: 2%;
+}
+
+.Contact_Us .btn1, .btn2,.btn3{
+    background-color: transparent;
 }
 
 .Contact_Us .Sub_Container .Sub_Button{
@@ -417,14 +400,52 @@ section {
 }
 
 .Contact_Us .Main_Container .Input_Container{
-    padding: 25px 45px;
-    border: solid white 1px;
-}
-
-.Contact_Us .Main_Container .Input_Container input{
+    position: relative;
+    margin-top: 5%;
+    margin-right: 5%;
+    padding: 4% 0% 6% 0%;
+    width: 40vw;
+    height: 45vh;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
     border: solid white 1px;
     border-radius: 15px;
+}
+.Contact_Us .Main_Container .Input_Container h4{
+    font-size: x-large;
+    align-self: center;
+    width: 80%;
+}
+.Contact_Us .Main_Container .Input_Container form{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.Contact_Us .Main_Container .Input_Container form input,
+.Contact_Us .Main_Container .Input_Container form textarea{
+    margin: 2% 0%;
+    height: 4vh;
+    width: 15vw;
+    border: solid white 1px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
     background: transparent;
+}
+.Contact_Us .Main_Container .Input_Container form input,
+.Contact_Us .Main_Container .Input_Container textarea:focus{
+    outline: none;
+}
+::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.6);
+}
+.Contact_Us .Main_Container .Input_Container textarea{
+    padding-top: 2%;
+    align-content: flex-start;
+    word-wrap:initial;
+    width: 100%;
+    height: 30vh;
 }
 /* End of Contact US CSS */
 
@@ -572,8 +593,8 @@ section {
 .Destination_Page .Main_Container .Sub_Contain1 button{
     width: 200px;
     height: 120px;
-    margin: 2% 0%;
-    padding: 5% 0%;
+    margin: 2vh 0vw;
+    padding: 2vh 0vw;
     background-color: transparent;
     display: flex;
     flex-direction: column;
@@ -610,6 +631,13 @@ section {
 .Destination_Page .Main_Container .Flex_Contain1{
     flex: 4;
 }
+.Destination_Page .Main_Container .Flex_Contain1 .CyD{
+    text-align: center;
+    width: 40vw;
+}
+.Destination_Page .Main_Container .Flex_Contain1 h1{
+    font-size: 56px;
+}
 .Destination_Page .Sub_Contain1 img{
     background-color: transparent;
     height: 5vh;
@@ -617,7 +645,10 @@ section {
 .Destination_Page .Destination_Img img{
     border-radius: 15px;
     background-color: transparent;
+    object-fit: contain;
+    object-position: center center;
     height: 65vh;
+    width: 25vw;
 }
 
 /* End of Destination_Page CSS */
@@ -642,7 +673,7 @@ section {
     letter-spacing: 5px;
 }
 
-/* Dubai Overview */
+/* Overview pages */
 .Overview {
     height: 94vh;
 }
@@ -713,7 +744,7 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 15%;
+    gap: 10%;
     align-items: center;
 }
 .Gallery .Main_Container .Image_Holder img{
@@ -726,9 +757,174 @@ section {
     background:rgb(255, 202, 88);
     border-radius: 5px;
     border-style: none;
-    margin: 0% 5%;
+    margin: 0% 4%;
     width: 11vw;
     height: 9vh;
 }
 
 /* End of Gallery CSS */
+
+/* Pearls of the Emirates */
+.PearlsOfTheEmirates section h1 {
+    font-size: 35px;
+}
+
+.PearlsOfTheEmirates .grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.PearlsOfTheEmirates .grid .information * {
+    margin: 0;
+    padding: 0;
+}
+
+.PearlsOfTheEmirates .grid .information p {
+    margin: 5px 0 0;
+}
+
+.PearlsOfTheEmirates .place-1, .PearlsOfTheEmirates .place-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.PearlsOfTheEmirates section img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.PearlsOfTheEmirates .place-1 > div, .PearlsOfTheEmirates .place-2 > div {
+    width: 480px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.PearlsOfTheEmirates .place-1 > div button, .PearlsOfTheEmirates .place-2 > div button {
+    width: 300px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #FFB370;
+    border-radius: 20px;
+}
+
+.PearlsOfTheEmirates .place-1 > div button:hover, .PearlsOfTheEmirates .place-2 > div button:hover {
+    background-color: #FFA85C;
+}
+
+.PearlsOfTheEmirates .grid > button {
+    width: 180px;
+    height: 80px;
+    padding: 10px 40px;
+    margin-left: 80px;
+    border: none;
+    background-color: #FFB370;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.PearlsOfTheEmirates .grid > button:hover {
+    background-color: #FFA85C;
+}
+
+/* Tourist/Location Spots */
+.tourist-spot h1.title{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.tourist-spot h3.sub-title{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+section.tourist-roster{
+    display: flex;
+}
+
+section.tourist-roster div.description{
+    padding: 0 50px;
+    flex: 1;
+}
+
+section.tourist-roster div.description p.chronicle{
+    margin: 20px 0;
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: 100;
+    word-spacing: 10px;
+}
+
+section.tourist-roster div.side-box{
+    flex: 2;
+}
+
+section.tourist-roster div.tourist-gallery img{
+    width: 31.9%;
+    box-shadow: 5px 5px 9px #2A2B31;
+}
+
+.tourist-spot button.see-button{
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    font-size: 20px;
+    margin-left: 14vw;
+}
+
+section.tourist-roster div.tourist-mapping{
+    margin-left: 790px;
+}
+
+section.tourist-roster div.tourist-mapping img{
+    width: 89%;
+    box-shadow: 5px 5px 9px #2A2B31;
+}
+
+.tourist-spot button.see-button a{
+    text-decoration: none;
+}
+
+.tourist-spot div.mapping img{
+    width: 20%;
+    box-shadow: 5px 5px 10px #2A2B31;
+    border-radius: 10px;
+}
+
+.tourist-spot .left-content {
+    width: 700px;
+    position: absolute;
+    top: 165px;
+    right: 85px;
+}
+
+.tourist-spot .left-content p {
+    width: 700px;
+    font-size: 15px;
+    text-align: right;
+}
+
+.tourist-spot .left-content p:hover {
+    text-decoration: underline;
+}
+
+.tourist-spot .side-box{
+    display: flex;
+    flex-direction: column;
+}
+
+section.tourist-roster h3.sub-title{
+    font-size: 35px;
+}
+
+section.tourist-roster h3.sub-text{
+    font-size: 20px;
+    font-weight: 100;
+}

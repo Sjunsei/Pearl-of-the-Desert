@@ -62,8 +62,13 @@
 .Gallery .Banner-Gallery{
     background-image: url(/Resources/Images/Background/Gallery-BG.jpg);
     @include Website_Banners();
+    background-size: auto;
+    background-repeat: repeat-y;
+    object-fit: fill;
+    height: 580%;
 }
 
+// Overview pages
 // Setting the Background image in the 'Dubai Overview' webpage while having a blur effect
 .Overview .Banner-Dubai_Overview {
     background-image: url(/Resources/Images/Blur-Background/Emirate-Desc-Bg.jpg);
@@ -79,5 +84,194 @@
 // Setting the Background image in the 'Dubai Overview' webpage while having a blur effect
 .Overview .Banner-AbuDhabi_Overview {
     background-image: url(/Resources/Images/Background/Gallery-AbuDhabi_Background.jpg);
+    @include Website_Banners();
+}
+
+.Overview .Banner-Ajman_Overview{
+    background-image:url(/Resources/Images/Background/Gallery-Ajman_Background.jpg);
+    @include Website_Banners();
+}
+
+.Overview .Banner-Fujairah_Overview{
+    background-image:url(/Resources/Images/Background/Gallery-Fujairah_Background.jpg);
+    @include Website_Banners();
+}
+
+.Overview .Banner-RasAlKhaimah_Overview{
+    background-image:url(/Resources/Images/Background/Gallery-RasAlKhaimah_Background.jpg);
+    @include Website_Banners();
+}
+
+.Overview .Banner-UmmAlQuwain_Overview{
+    background-image:url(/Resources/Images/Background/Gallery-UmmAlQuwain_Background.jpg);
+    @include Website_Banners();
+}
+
+// Pearls of the Emirates Pages
+.PearlsOfTheEmirates .Banner-Dubai_PearlsOfTheEmirates{
+    background-image: url(/Resources/Images/Blur-Background/mikk-tonissoo-PWf-Dr2qpOo-unsplash.jpg);
+    @include Website_Banners();
+}
+
+// Tourist Background Pages
+// Dubai BG
+.Dubai_Mall .Banner-Dubai-Mall{
+    background-image: url(/Resources/Images/Gallery/Dubai/Dubai-Mall.jpg);
+    @include Website_Banners();
+}
+
+.Mall_Of_Emirates .Banner-Mall-Of-Emirates{
+    background-image: url(/Resources/Images/Gallery/Dubai/Mall-of-Emirates.jpg);
+    @include Website_Banners();
+}
+
+.Dubai_Canal .Banner-Dubai-Canal{
+    background-image: url(/Resources/Images/Gallery/Dubai/Dubai-Canal.jpg);
+    @include Website_Banners();
+}
+
+.Burj_Khalifa .Banner-Burj-Khalifa{
+    background-image: url(/Resources/Images/Gallery/Dubai/Dubai-Canal.jpg);
+    @include Website_Banners();
+}
+
+.Burj_Al_Arab .Banner-Burj-Al-Arab{
+    background-image: url(/Resources/Images/Gallery/Dubai/Burj-Al-Arab.jpg);
+    @include Website_Banners();
+}
+
+.Qasr_Al_Hosan .Banner-Qasr-Al-Hosan{
+    background-image: url(/Resources/Images/Gallery/Abu_Dhabi/Qasr_Al-Hosn/QAH.jpg);
+    @include Website_Banners();
+}
+
+// Abu Dhabi BG
+.Formula_Rosa .Banner-Formula-Rosa{
+    background-image: url(/Resources/Images/Gallery/Gallery-Content3-AbuDhabi.jpg);
+    @include Website_Banners();
+}
+
+.Louvre .Banner-Louvre{
+    background-image: url(/Resources/Images/Gallery/Abu_Dhabi/Louvre/Louvre1.jpg);
+    @include Website_Banners();
+}
+
+.TheEmiratesPalace .Banner-Emirates-Palace{
+    background-image: url(/Resources/Images/Gallery/Abu_Dhabi/Emirates_Palace/Emirates_Palace.jpg);
+    @include Website_Banners();
+}
+
+.Yas_Marina_West_Circuit .Banner-Yas-Marina{
+    background-image: url(/Resources/Images/Gallery/Abu_Dhabi/Yas_Marina_West_Circuit/YMC.jpg);
+    @include Website_Banners();
+}
+
+.Warner_Bros .Banner-Warner-Bros{
+    background-image: url(/Resources/Images/Gallery/Abu_Dhabi/Warner_Bros/WB.jpg);
+    @include Website_Banners();
+}
+
+.Yas_Water_Park .Banner-Yas-Water-Park{
+    background-image: url(/Resources/Images/Gallery/Abu_Dhabi/Yas_WaterPark/YWP.jpg);
+    @include Website_Banners();
+}
+
+// Ajman BG
+.Ajman_Museum .Banner-Ajman-Museum{
+    background-image: url(/Resources/Images/Gallery/Ajman/ajman-museum.jpg);
+    @include Website_Banners();
+}
+
+.Natural_Reserve .Banner-Al-Zorah-Natural-Reserve{
+    background-image: url(/Resources/Images/Gallery/Ajman/Al-Zorah-Natural-Reserve.jpg);
+    @include Website_Banners();
+}
+
+.Wast_Wetland_Center .Banner-Wast-Wetland-Center{
+    background-image: url(/Resources/Images/Gallery/Ajman/Wasit-Wetland-Center1.jpg);
+    @include Website_Banners();
+}
+
+// Fujairah BG
+.Al_Biyah_Mosque_in_Fujairah .Banner-Fujairah-Mosque{
+    background-image: url(/Resources/Images/Gallery/Fujairah/Al-Bidyah-Mosque-in-Fujairah.jpg);
+    @include Website_Banners();
+}
+
+.Al_Hayl_Castle_Fujairah .Banner-Al-Hayl-Castle-Fujairah{
+    background-image: url(/Resources/Images/Gallery/Fujairah/al-hayl-castle-fujairah.jpg);
+    @include Website_Banners();
+}
+
+.Al_Rabi_Tower_Main .Banner-Al-Rabi-Tower-Main{
+    background-image: url(/Resources/Images/Gallery/Fujairah/al-rabi-tower-main.jpg);
+    @include Website_Banners();
+}
+
+.Al_Fujairah_Fort .Banner-Al-Fujairah-Fort{
+    background-image: url(/Resources/Images/Gallery/Fujairah/Fujairah-Fort.jpg);
+    @include Website_Banners();
+}
+
+.Sheikh_Zayed_Mosque_Fujaira .Banner-Sheikh-Zayed-Mosque-Fujaira{
+    background-image: url(/Resources/Images/Gallery/Fujairah/sheikh-Zayed-Mosque-Fujairah.jpg);
+    @include Website_Banners();
+}
+
+// RAK BG
+.Jazirah_Al_Hamra .Banner-Jazirah-Al-Hamra{
+    background-image: url(/Resources/Images/Gallery/RAK/jazirah-al-hamra.jpg);
+    @include Website_Banners();
+}
+
+.Jebel_Jais .Banner-Jebel-Jais{
+    background-image: url(/Resources/Images/Gallery/RAK/jebel-jais.jpg);
+    @include Website_Banners();
+}
+
+.National_Museum_of_Ras_Al_Khaimah .Banner-National-Museum-RAK{
+    background-image: url(/Resources/Images/Gallery/RAK/National-Museum-of-Ras-Al-Khaimah.jpg);
+    @include Website_Banners();
+}
+
+.Suwaidi_Pealr .Banner-Suwaidi-Peal{
+    background-image: url(/Resources/Images/Gallery/RAK/Suwaidi-Pearl.jpg);
+    @include Website_Banners();
+}
+
+// Sharjah BG
+.Sharjah_Museum_Of_Islamic_Civilization .Banner-Sharjah-Museum-Of-Islamic-Civilization{
+    background-image: url(/Resources/Images/Gallery/Sharjah/Sharjah-Museum-of-Islamic-Civilization.jpg);
+    @include Website_Banners();
+}
+
+.Al_Noor_Island .Banner-Al-Noor-Island{
+    background-image: url(/Resources/Images/Gallery/Sharjah/Al-Noor-Island2.jpg);
+    @include Website_Banners();
+}
+
+.Al_Noor_Mosque .Banner-Al-Noor-Mosque{
+    background-image: url(/Resources/Images/Gallery/Sharjah/Al-Noor-Mosque.jpg);
+    @include Website_Banners();
+}
+
+// Umm Al Quwain BG
+.Al_Ali_Fort .Banner-Al_Ali_Fort{
+    background-image: url(/Resources/Images/Gallery/UAQ/Al-Ali-Fort.jpg);
+    @include Website_Banners();
+}
+
+.UAQ_National_Museum .Banner-UAQ-National-Museum{
+    background-image: url(/Resources/Images/Gallery/UAQ/Umm-Al-Quwain-National-Museum.jpg);
+    @include Website_Banners();
+}
+
+.Bassata_Desert_Village .Banner-Bassata-Desert-Village{
+    background-image: url(/Resources/Images/Gallery/UAQ/Bassata-Desert-Village.jpg);
+    @include Website_Banners();
+}
+
+.UAQ_Beach .Banner-UAQ-Beach{
+    background-image: url(/Resources/Images/Gallery/UAQ/UAQ-beach.jpg);
     @include Website_Banners();
 }
