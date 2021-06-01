@@ -138,6 +138,11 @@
     @include Website_Banners();
 }
 
+.PearlsOfTheEmirates .Banner-Umm_Al_Quwain_PearlsOfTheEmirates{
+    background-image: url(/Resources/Images/Gallery/UAQ/Al-Ali-Fort.jpg);
+    @include Website_Banners();
+}
+
 // Tourist Background Pages
 // Dubai BG
 .Dubai_Mall .Banner-Dubai-Mall{
