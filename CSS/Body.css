@@ -844,8 +844,13 @@ section {
     font-weight: 100;
 }
 
+section.tourist-roster{
+    display: flex;
+}
+
 section.tourist-roster div.description{
     padding: 0 50px;
+    flex: 1;
 }
 
 section.tourist-roster div.description p.chronicle{
@@ -855,14 +860,13 @@ section.tourist-roster div.description p.chronicle{
     font-weight: 100;
 }
 
-section.tourist-roster div.side-box img{
-    width: 25%;
-    box-shadow: 5px 5px 5px #2A2B31;
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    overflow: hidden;
-    border-radius: 5px;
+section.tourist-roster div.side-box{
+    flex: 2;
+}
+
+section.tourist-roster div.tourist-gallery img{
+    width: 36%;
+    box-shadow: 5px 5px 9px #2A2B31;
 }
 
 .tourist-spot button.see-button{
@@ -871,11 +875,20 @@ section.tourist-roster div.side-box img{
     border: none;
     padding: 8px;
     font-size: 20px;
+    margin-left: 17vw;
+}
+
+section.tourist-roster div.tourist-mapping{
+    margin-left: 790px;
+}
+
+section.tourist-roster div.tourist-mapping img{
+    width: 89%;
+    box-shadow: 5px 5px 9px #2A2B31;
 }
 
 .tourist-spot button.see-button a{
     text-decoration: none;
-    margin-left: 18.9vw;
 }
 
 .tourist-spot div.mapping img{
@@ -904,14 +917,4 @@ section.tourist-roster div.side-box img{
 .tourist-spot .side-box{
     display: flex;
     flex-direction: column;
-}
-
-.tourist-spot .side-box div.tourist-gallery{
-    flex-wrap: nowrap;
-    justify-content: start;
-}
-
-.tourist-spot .side-box div.tourist-mapping {
-    flex-wrap: nowrap;
-    justify-content: end;
 }
