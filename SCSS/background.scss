@@ -118,6 +118,11 @@
     @include Website_Banners();
 }
 
+.PearlsOfTheEmirates .Banner-Sharjah_PearlsOfTheEmirates{
+    background-image: url(/Resources/Images/Gallery/Sharjah/Al-Noor-Mosque2.jpg);
+    @include Website_Banners();
+}
+
 // Tourist Background Pages
 // Dubai BG
 .Dubai_Mall .Banner-Dubai-Mall{
