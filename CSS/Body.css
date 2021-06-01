@@ -858,6 +858,7 @@ section.tourist-roster div.description p.chronicle{
     line-height: 40px;
     font-size: 30px;
     font-weight: 100;
+    word-spacing: 10px;
 }
 
 section.tourist-roster div.side-box{
@@ -865,7 +866,7 @@ section.tourist-roster div.side-box{
 }
 
 section.tourist-roster div.tourist-gallery img{
-    width: 36%;
+    width: 31.9%;
     box-shadow: 5px 5px 9px #2A2B31;
 }
 
@@ -875,7 +876,7 @@ section.tourist-roster div.tourist-gallery img{
     border: none;
     padding: 8px;
     font-size: 20px;
-    margin-left: 17vw;
+    margin-left: 14vw;
 }
 
 section.tourist-roster div.tourist-mapping{
@@ -917,4 +918,13 @@ section.tourist-roster div.tourist-mapping img{
 .tourist-spot .side-box{
     display: flex;
     flex-direction: column;
+}
+
+section.tourist-roster h3.sub-title{
+    font-size: 35px;
+}
+
+section.tourist-roster h3.sub-text{
+    font-size: 20px;
+    font-weight: 100;
 }
