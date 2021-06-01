@@ -858,6 +858,11 @@ section.tourist-roster div.description p.chronicle{
 section.tourist-roster div.side-box img{
     width: 25%;
     box-shadow: 5px 5px 5px #2A2B31;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    overflow: hidden;
+    border-radius: 5px;
 }
 
 .tourist-spot button.see-button{
@@ -868,7 +873,45 @@ section.tourist-roster div.side-box img{
     font-size: 20px;
 }
 
-.tourist-spot button.see-button:hover{
-    background-color: #FFA85C;
-    box-shadow: 5px 5px 5px #2A2B31;
+.tourist-spot button.see-button a{
+    text-decoration: none;
+    margin-left: 18.9vw;
+}
+
+.tourist-spot div.mapping img{
+    width: 20%;
+    box-shadow: 5px 5px 10px #2A2B31;
+    border-radius: 10px;
+}
+
+.tourist-spot .left-content {
+    width: 700px;
+    position: absolute;
+    top: 165px;
+    right: 85px;
+}
+
+.tourist-spot .left-content p {
+    width: 700px;
+    font-size: 15px;
+    text-align: right;
+}
+
+.tourist-spot .left-content p:hover {
+    text-decoration: underline;
+}
+
+.tourist-spot .side-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.tourist-spot .side-box div.tourist-gallery{
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+
+.tourist-spot .side-box div.tourist-mapping {
+    flex-wrap: nowrap;
+    justify-content: end;
 }
