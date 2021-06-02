@@ -74,7 +74,7 @@ header li {
     padding: 20px;
     line-height: 30px;
     border-radius: 8px;
-    z-index: 2;
+    z-index: 5;
 }
 
 .inner-container a {

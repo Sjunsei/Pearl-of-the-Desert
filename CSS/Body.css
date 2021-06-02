@@ -614,6 +614,9 @@ section {
     gap: 4%;
     justify-content: center;
 }
+.Destination_Page .Main_Container .Sub_Contain1 a{
+    text-decoration: none;
+}
 .Destination_Page .Main_Container .Flex_Contain2{
     padding-right: 10%;
     align-items: flex-end;
