@@ -57,12 +57,12 @@
             <div class="Flex_Contain2 ">
                 <div class="Flex_Contain Sub_Contain2 Destination_Img">
                     <div>
-                        <img src="/Resources/Images/Background/Destination-picture.jpg" alt="Picture">
+                        <img id="Displayimg" src="/Resources/Images/Background/Destination-picture.jpg" alt="Picture">
                     </div>
                     
                     <div class="btn_hold">
-                        <button class="btn"><img src="/Resources/Images/New Icons/Icon feather-arrow-left-circle.svg" alt="prev"></button>
-                        <button class="btn"><img src="/Resources/Images/New Icons/Icon feather-arrow-right-circle.svg" alt="next"></button>
+                        <button class="btn" onclick="nextimg()" ><img src="/Resources/Images/New Icons/Icon feather-arrow-left-circle.svg" alt="prev"></button>
+                        <button class="btn" onclick="previmg()" ><img src="/Resources/Images/New Icons/Icon feather-arrow-right-circle.svg" alt="next"></button>
                     </div>
                 </div>
             </div>  
@@ -83,5 +83,6 @@
 
     <!-- Javascript -->
     <script src="../../JavaScript/Javascript.js"></script> <!-- Header navigation bar -->
+    <script src="../../JavaScript/DestinationGallery.js"></script>
 </body>
 </html>
