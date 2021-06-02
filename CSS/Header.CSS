@@ -22,7 +22,9 @@ header button {
     width: 160px;
     font-size: 20px;
 }
-
+header button:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
 header ul {
     padding: 0 0 0 20px;
 }

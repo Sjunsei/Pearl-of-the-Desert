@@ -122,7 +122,9 @@ section {
     display: flex;
     justify-content: space-between;
 }
-
+.The_Emirates section .links a{
+    text-decoration: none;
+}
 .The_Emirates .heading-text {
     font-size: 50px;
 }
@@ -617,6 +619,9 @@ section {
 .Destination_Page .Main_Container .Sub_Contain1 a{
     text-decoration: none;
 }
+.Destination_Page .Main_Container .Sub_Contain1 button:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
 .Destination_Page .Main_Container .Flex_Contain2{
     padding-right: 10%;
     align-items: flex-end;
@@ -634,7 +639,12 @@ section {
 }
 .Destination_Page .Main_Container .Flex_Contain2 .btn{
     background: none;
+    padding: .5vh .5vw;
     border: none;
+}
+.Destination_Page .Main_Container .Flex_Contain2 .btn:hover{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
 }
 .Destination_Page .Main_Container .Flex_Contain1{
     flex: 4;
@@ -651,7 +661,6 @@ section {
     height: 5vh;
 }
 .Destination_Page .Destination_Img img{
-    border-radius: 15px;
     background-color: transparent;
     object-fit: contain;
     object-position: center center;
