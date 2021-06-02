@@ -952,3 +952,7 @@ section.tourist-roster h3.sub-text{
     font-size: 20px;
     font-weight: 100;
 }
+
+section.tourist-roster .taxi-svg{
+    width: 10%;
+}
