@@ -64,7 +64,7 @@ header li {
     text-align: right;
 }
 
-.container.res .bigger-container {
+.container.res .inner-container {
     background-color: black;
     opacity: 0.8;
     display: block;
