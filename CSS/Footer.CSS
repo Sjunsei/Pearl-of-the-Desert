@@ -6,7 +6,7 @@ footer {
     display: flex;
     justify-content: space-between;
     background-color: rgb(24, 24, 24);
-    opacity: 0.6;
+    opacity: .8;
     align-items: center;
     height: 65px;
 }
@@ -23,4 +23,8 @@ footer li {
 footer a {
     text-decoration: none;
     padding: 0 35px 0 0;
+}
+
+footer a:hover{
+    color: rgb(122, 142, 146);
 }

@@ -3,6 +3,10 @@ section {
     padding: 0 40px;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* Home Button */
 .HomeButton{
     text-decoration: none;
@@ -408,11 +412,10 @@ section {
 
 .Contact_Us .Main_Container .Input_Container{
     position: relative;
-    margin-top: 5%;
     margin-right: 5%;
     padding: 4% 0% 6% 0%;
     width: 40vw;
-    height: 45vh;
+    height: auto;
     text-align: center;
     align-content: center;
     justify-content: center;
@@ -426,33 +429,68 @@ section {
 }
 .Contact_Us .Main_Container .Input_Container form{
     align-self: center;
+    justify-content: center;
     display: flex;
     flex-direction: column;
 }
 .Contact_Us .Main_Container .Input_Container form input,
-.Contact_Us .Main_Container .Input_Container form textarea{
+.Contact_Us .Main_Container .Input_Container form textarea,
+.Contact_Us .Main_Container .Input_Container form input:empty,
+.Contact_Us .Main_Container .Input_Container form textarea:empty{
+    align-self: center;
     margin: 2% 0%;
     height: 4vh;
-    width: 15vw;
-    border: solid white 1px;
+    width: 10vw;
+    border: none;
     color: white;
     text-align: center;
-    border-radius: 15px;
+    border-radius: 10px;
     background: transparent;
+    transition: 0.2s;
 }
-.Contact_Us .Main_Container .Input_Container form input,
-.Contact_Us .Main_Container .Input_Container textarea:focus{
+.Contact_Us .Main_Container .Input_Container form textarea,
+.Contact_Us .Main_Container .Input_Container form textarea:empty{
+    resize: vertical;
+    height: 4.5vh;
+    border-radius: 15px;
+    padding-top: 2%;
+    align-content: flex-start;
+    word-wrap:normal;
+    height: 30vh;
+    border: solid white 1px;
+}
+.Contact_Us .Main_Container .Input_Container form input:focus,
+.Contact_Us .Main_Container .Input_Container form textarea:focus,
+.Contact_Us .Main_Container .Input_Container form input:hover,
+.Contact_Us .Main_Container .Input_Container form textarea:hover,
+.Contact_Us .Main_Container .Input_Container form input:active,
+.Contact_Us .Main_Container .Input_Container form textarea:active{
+    width: 15vw;
+    color:#2A2B31;
+    background: rgba(255, 255, 255, 0.2);
     outline: none;
 }
 ::-webkit-input-placeholder{
     color: rgba(255, 255, 255, 0.6);
 }
-.Contact_Us .Main_Container .Input_Container textarea{
-    padding-top: 2%;
-    align-content: flex-start;
-    word-wrap:initial;
-    width: 100%;
-    height: 30vh;
+
+.Contact_Us .Main_Container .Input_Container form button{
+    font-size: larger;
+    align-self: center;
+    margin: 2vh 0vw;
+    height: 4vh;
+    width: 5.2vw;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    background: transparent;
+    transition: 0.2s;
+}
+
+.Contact_Us .Main_Container .Input_Container form button:hover{
+    background-color: rgba(250, 235, 215, 0.2);
+    width: 10vw;
 }
 /* End of Contact US CSS */
 
