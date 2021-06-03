@@ -64,21 +64,30 @@ header li {
     text-align: right;
 }
 
-.container.res .inner-container {
-    display: block;
+.container.res .bigger-container {
     background-color: black;
-    opacity: 0.6;
+    opacity: 0.8;
+    display: block;
     position: absolute;
     top: 55px;
     right: 0;
     width: 110px;
     height: 150px;
     padding: 20px;
-    line-height: 30px;
-    border-radius: 8px;
     z-index: 5;
+    border-radius: 8px;
+}
+
+
+.container.res .inner-container {
+    display: block;
+    line-height: 30px;
 }
 
 .inner-container a {
     font-size: 15px;
+}
+
+.inner-container a:hover {
+    color: rgba(255, 255, 255, 0.384);
 }
