@@ -874,6 +874,7 @@ section {
 
 section.tourist-roster{
     display: flex;
+    margin: 3.5vh 0vw;
 }
 
 section.tourist-roster div.description{
