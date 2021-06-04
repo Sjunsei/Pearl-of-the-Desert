@@ -35,8 +35,8 @@ a{
     position: absolute;
     top: 200px;
     right: 80px;
-    width: 200px;
-    height: 120px;
+    width:290px;
+    height: 250px;
     display: flex;
     background-color: black;
     opacity: 0.5;
@@ -44,6 +44,7 @@ a{
     flex-wrap: wrap;
     padding: 10px 30px;
     flex-basis: 100%;
+    display: flex;
 }
 
 .HomePage .main-temp {
@@ -56,6 +57,55 @@ a{
 
 .HomePage .main-temp img {
     width: 50px;
+}
+
+/* Main Temperature Reading */
+.HomePage .search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomePage .search-i{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 46px;
+    width: 46px;
+    outline: none;
+    background: #7c7c7c7c;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.HomePage .search-bar{
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 18px;
+    background: #7c7c7c2b;
+    font-family: inherit;
+    font-size: 100%;
+    width: calc(100% - 50px);
+}
+
+.HomePage .search-i:hover{
+    background: #7c7c7c;
+}
+
+.HomePage .description{
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+
+.flexing{
+    display: flex;
+    align-items: center;
+}
+
+.HomePage h1{
+    margin: 0;
+    margin-bottom: 0.4em;
 }
 
 .HomePage .sub-temp {
