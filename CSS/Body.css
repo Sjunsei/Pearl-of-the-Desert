@@ -415,6 +415,7 @@ a{
     width: 500px;
     height: 105px;
     border-radius: 10px;
+    transition: 0.2s;
 }
 .Contact_Us .Sub_Container .btn3{
     padding: 3% 3%;
@@ -498,6 +499,7 @@ a{
     border-radius: 10px;
     background: transparent;
     transition: 0.2s;
+    border: solid white 1px;
 }
 .Contact_Us .Main_Container .Input_Container form textarea,
 .Contact_Us .Main_Container .Input_Container form textarea:empty{

@@ -69,15 +69,18 @@
 
             <div class="Flex_Container  Sub_Container Input_Container">
                 <h4>Got a Question? Send us a message</h4>
-                <form>
-                    <input type="text" name="First_Name" placeholder=" First Name ">
-                    <input type="text" name="Last_Name" placeholder=" Last Name ">
-                    <input type="text" name="E-mail" placeholder=" E-mail ">
-                    <textarea placeholder="Your Message Here"></textarea>
+                <form action="https://formspree.io/f/mnqldwwr" method="post">
+                    <input type="text" class="First_Name" name="First_Name" placeholder=" First Name ">
+                    <input type="text" class="Last_Name" name="Last_Name" placeholder=" Last Name ">
+                    <input type="text" class="E-mail" name="E-mail" placeholder=" E-mail ">
+                    <textarea class="msg" name="message" placeholder="Your Message Here"></textarea>
                     <button type="submit" class="submit">SEND</button>
                     <!--<input class="description" type="text" name="Description" placeholder=" Your Message Here ">-->
                 </form>
                 
+            </div>
+            <div class="status">
+
             </div>
     </div>
     <!-- Footer & Navigation Bar -->
@@ -93,8 +96,8 @@
     </footer>
 
     <!-- Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script><!-- loads Jquery-->
     <script src="/JavaScript/Javascript.js"></script> <!-- Header navigation bar -->
     <script src="/JavaScript/ContactUs.js"></script> <!-- links Contact Us Js script-->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script><!-- loads Jquery-->
 </body>
 </html>
