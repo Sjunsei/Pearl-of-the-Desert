@@ -106,6 +106,7 @@ a{
 .HomePage h1{
     margin: 0;
     margin-bottom: 0.4em;
+    font-size: 120%;
 }
 
 .HomePage .sub-temp {
